@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(openspec:*)",
+      "Bash(mkdir:*)",
+      "Bash(node:*)",
+      "Bash(chmod:*)",
+      "Bash(copy:*)",
+      "Bash(tree:*)",
+      "Bash(ls:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)",
+      "Bash(dir:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

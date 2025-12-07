@@ -1,0 +1,1061 @@
+{
+    "id": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+    "name": "7已创建1个小组",
+    "props": {
+        "style": {
+            "display": "flex",
+            "width": "375px",
+            "height": "812px",
+            "flexDirection": "column",
+            "opacity": 1
+        },
+        "className": "view_1"
+    },
+    "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 812
+    },
+    "componentName": "Div",
+    "intelligent": {
+        "layout_opt": {},
+        "is_need_detection": true
+    },
+    "isInteractive": false,
+    "lowcodeType": "KunBasicContainer",
+    "ui_library_type": "",
+    "ui_component_type": "",
+    "plugin_version": "0.1.0",
+    "task_id": "bef53bd5-f0ea-46b1-bbfa-ec0cd534f0e1",
+    "artboard_image": "http://10.250.134.83:9000/d2c-img/img/8B3E5E6C-E322-42BB-9EC2-C232F3471D2D.png",
+    "children": [
+        {
+            "id": "C6520EAF-D7CE-4418-815E-E536374BF7A4",
+            "name": "矩形",
+            "props": {
+                "style": {
+                    "display": "flex",
+                    "width": "375px",
+                    "height": "108px",
+                    "backgroundColor": "rgba(0,0,0,1)",
+                    "zIndex": 2,
+                    "flexDirection": "column",
+                    "opacity": 1
+                },
+                "className": "view_2"
+            },
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 108
+            },
+            "componentName": "Div",
+            "intelligent": {
+                "layout_opt": {},
+                "is_need_detection": true
+            },
+            "isInteractive": false,
+            "lowcodeType": "KunBasicContainer",
+            "ui_library_type": "",
+            "ui_component_type": "",
+            "children": [
+                {
+                    "id": "B272F8CB-7FE1-40DE-A249-438CC6397C4A",
+                    "name": "Status/white",
+                    "props": {
+                        "style": {
+                            "width": "375px",
+                            "height": "24px",
+                            "opacity": 1
+                        },
+                        "className": "imageView_1",
+                        "src": "http://10.250.134.83:9000/d2c-img/img/B272F8CB-7FE1-40DE-A249-438CC6397C4A@2x.png"
+                    },
+                    "rect": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 375,
+                        "height": 24
+                    },
+                    "componentName": "Image",
+                    "intelligent": {
+                        "layout_opt": {},
+                        "is_need_detection": false
+                    },
+                    "isInteractive": false,
+                    "lowcodeType": "KunBasicContainer",
+                    "ui_library_type": "",
+                    "ui_component_type": "",
+                    "parentId": "C6520EAF-D7CE-4418-815E-E536374BF7A4",
+                    "isLeaf": true,
+                    "isHover": false,
+                    "isClick": false
+                },
+                {
+                    "id": "br6dk7n8",
+                    "name": "Row",
+                    "props": {
+                        "style": {
+                            "display": "flex",
+                            "width": "190px",
+                            "height": "25px",
+                            "marginTop": "12px",
+                            "marginLeft": "16px",
+                            "flexDirection": "row",
+                            "alignItems": "center",
+                            "justifyContent": "space-between"
+                        },
+                        "className": "view_3"
+                    },
+                    "rect": {
+                        "x": 16,
+                        "y": 36,
+                        "width": 190,
+                        "height": 25
+                    },
+                    "componentName": "Div",
+                    "intelligent": {
+                        "layout_opt": {},
+                        "is_need_detection": false
+                    },
+                    "isInteractive": false,
+                    "lowcodeType": "KunBasicContainer",
+                    "ui_library_type": "",
+                    "ui_component_type": "",
+                    "children": [
+                        {
+                            "id": "C0A78806-DFF3-4F58-999B-14076881E5A3",
+                            "name": "nav_icon_back",
+                            "props": {
+                                "style": {
+                                    "width": "24px",
+                                    "height": "24px",
+                                    "opacity": 1
+                                },
+                                "className": "imageView_2",
+                                "src": "http://10.250.134.83:9000/d2c-img/img/C0A78806-DFF3-4F58-999B-14076881E5A3@2x.png"
+                            },
+                            "rect": {
+                                "x": 16,
+                                "y": 36,
+                                "width": 24,
+                                "height": 24
+                            },
+                            "componentName": "Image",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "parentId": "br6dk7n8",
+                            "isLeaf": true,
+                            "isHover": false,
+                            "isClick": false
+                        },
+                        {
+                            "id": "B0F46FBB-1FEB-4A81-B268-B4DEBF6666C7",
+                            "name": "分组",
+                            "props": {
+                                "style": {
+                                    "color": "rgba(255,255,255,1)",
+                                    "fontSize": "18px",
+                                    "fontFamily": "PingFangSC-Semibold",
+                                    "fontWeight": "700",
+                                    "lineHeight": "25px",
+                                    "textAlign": "center",
+                                    "textAlignVertical": "center",
+                                    "height": "25px",
+                                    "whiteSpace": "nowrap",
+                                    "opacity": 1
+                                },
+                                "className": "text_1",
+                                "text": "分组",
+                                "lines": 1
+                            },
+                            "rect": {
+                                "x": 170,
+                                "y": 36,
+                                "width": 0,
+                                "height": 25
+                            },
+                            "componentName": "Text",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "parentId": "br6dk7n8",
+                            "isLeaf": true,
+                            "isHover": false,
+                            "isClick": false
+                        }
+                    ],
+                    "parentId": "C6520EAF-D7CE-4418-815E-E536374BF7A4",
+                    "isLeaf": false,
+                    "isHover": false,
+                    "isClick": false
+                }
+            ],
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "isLeaf": false,
+            "isHover": false,
+            "isClick": false
+        },
+        {
+            "id": "7A2F365B-79BB-4BFF-9301-0B1576695692",
+            "name": "矩形",
+            "props": {
+                "style": {
+                    "display": "flex",
+                    "width": "375px",
+                    "height": "740px",
+                    "backgroundColor": "rgba(247,247,247,1)",
+                    "borderTopLeftRadius": "8px",
+                    "borderTopRightRadius": "8px",
+                    "zIndex": 5,
+                    "marginTop": "-36px",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "opacity": 1
+                },
+                "className": "view_4"
+            },
+            "rect": {
+                "x": 0,
+                "y": 72,
+                "width": 375,
+                "height": 740
+            },
+            "componentName": "Div",
+            "intelligent": {
+                "layout_opt": {},
+                "is_need_detection": true
+            },
+            "isInteractive": false,
+            "lowcodeType": "KunBasicContainer",
+            "ui_library_type": "",
+            "ui_component_type": "",
+            "children": [
+                {
+                    "id": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+                    "name": "矩形",
+                    "props": {
+                        "style": {
+                            "display": "flex",
+                            "width": "343px",
+                            "height": "204px",
+                            "backgroundColor": "rgba(255,255,255,1)",
+                            "borderRadius": "8px",
+                            "marginTop": "12px",
+                            "marginLeft": "16px",
+                            "flexDirection": "column",
+                            "opacity": 1
+                        },
+                        "className": "view_5"
+                    },
+                    "rect": {
+                        "x": 16,
+                        "y": 84,
+                        "width": 343,
+                        "height": 204
+                    },
+                    "componentName": "Div",
+                    "intelligent": {
+                        "layout_opt": {},
+                        "is_need_detection": true
+                    },
+                    "isInteractive": false,
+                    "lowcodeType": "KunBasicContainer",
+                    "ui_library_type": "",
+                    "ui_component_type": "",
+                    "children": [
+                        {
+                            "id": "prd0l54k",
+                            "name": "Row",
+                            "props": {
+                                "style": {
+                                    "display": "flex",
+                                    "width": "319px",
+                                    "height": "20px",
+                                    "marginTop": "16px",
+                                    "marginLeft": "12px",
+                                    "flexDirection": "row",
+                                    "alignItems": "center",
+                                    "position": "relative"
+                                },
+                                "className": "view_6"
+                            },
+                            "rect": {
+                                "x": 28,
+                                "y": 100,
+                                "width": 319,
+                                "height": 20
+                            },
+                            "componentName": "Div",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "children": [
+                                {
+                                    "id": "10D5CFB1-6AF9-4F79-B211-E693FD8E413C",
+                                    "name": "一组",
+                                    "props": {
+                                        "style": {
+                                            "color": "rgba(51,51,51,1)",
+                                            "fontSize": "14px",
+                                            "fontFamily": "PingFangSC-Medium",
+                                            "fontWeight": "500",
+                                            "lineHeight": "20px",
+                                            "textAlign": "left",
+                                            "textAlignVertical": "center",
+                                            "height": "20px",
+                                            "whiteSpace": "nowrap",
+                                            "opacity": 1
+                                        },
+                                        "className": "text_2",
+                                        "text": "一组",
+                                        "lines": 1
+                                    },
+                                    "rect": {
+                                        "x": 28,
+                                        "y": 100,
+                                        "width": 0,
+                                        "height": 20
+                                    },
+                                    "componentName": "Text",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "parentId": "prd0l54k",
+                                    "isLeaf": true,
+                                    "isHover": false,
+                                    "isClick": false
+                                },
+                                {
+                                    "id": "E17FDEFE-DC6A-423E-B081-B1071E5189E2",
+                                    "name": "编组备份",
+                                    "props": {
+                                        "style": {
+                                            "width": "14px",
+                                            "height": "14px",
+                                            "marginLeft": "9px",
+                                            "opacity": 1
+                                        },
+                                        "className": "imageView_3",
+                                        "src": "http://10.250.134.83:9000/d2c-img/img/E17FDEFE-DC6A-423E-B081-B1071E5189E2@2x.png"
+                                    },
+                                    "rect": {
+                                        "x": 65,
+                                        "y": 103,
+                                        "width": 14,
+                                        "height": 14
+                                    },
+                                    "componentName": "Image",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "parentId": "prd0l54k",
+                                    "isLeaf": true,
+                                    "isHover": false,
+                                    "isClick": false
+                                },
+                                {
+                                    "id": "6374726F-4F8C-4EA3-95FA-39A418A38770",
+                                    "name": "删除 (1)",
+                                    "props": {
+                                        "style": {
+                                            "width": "16px",
+                                            "height": "16px",
+                                            "right": 0,
+                                            "top": 0,
+                                            "position": "absolute",
+                                            "opacity": 1
+                                        },
+                                        "className": "imageView_4",
+                                        "src": "http://10.250.134.83:9000/d2c-img/img/6374726F-4F8C-4EA3-95FA-39A418A38770@2x.png"
+                                    },
+                                    "rect": {
+                                        "x": 331,
+                                        "y": 100,
+                                        "width": 16,
+                                        "height": 16
+                                    },
+                                    "componentName": "Image",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "parentId": "prd0l54k",
+                                    "isLeaf": true,
+                                    "isHover": false,
+                                    "isClick": false
+                                }
+                            ],
+                            "parentId": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+                            "isLeaf": false,
+                            "isHover": false,
+                            "isClick": false
+                        },
+                        {
+                            "id": "7E7167CB-5869-4686-965A-1D319ECE0C17",
+                            "name": "路径 29备份 8",
+                            "props": {
+                                "style": {
+                                    "width": "319px",
+                                    "height": "1px",
+                                    "marginTop": "13px",
+                                    "marginLeft": "12px",
+                                    "opacity": 1
+                                },
+                                "className": "imageView_5",
+                                "src": "http://10.250.134.83:9000/d2c-img/img/7E7167CB-5869-4686-965A-1D319ECE0C17@2x.png"
+                            },
+                            "rect": {
+                                "x": 28,
+                                "y": 133,
+                                "width": 319,
+                                "height": 1
+                            },
+                            "componentName": "Image",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "parentId": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+                            "isLeaf": true,
+                            "isHover": false,
+                            "isClick": false
+                        },
+                        {
+                            "id": "5F871EA4-44D7-4815-A4E3-EF979B3D7052",
+                            "name": "矩形",
+                            "props": {
+                                "style": {
+                                    "display": "flex",
+                                    "width": "319px",
+                                    "height": "72px",
+                                    "marginLeft": "12px",
+                                    "flexDirection": "column",
+                                    "opacity": 1
+                                },
+                                "className": "view_7"
+                            },
+                            "rect": {
+                                "x": 28,
+                                "y": 134,
+                                "width": 319,
+                                "height": 72
+                            },
+                            "componentName": "Div",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "children": [
+                                {
+                                    "id": "c1bthbsf",
+                                    "name": "Row",
+                                    "props": {
+                                        "style": {
+                                            "display": "flex",
+                                            "width": "319px",
+                                            "height": "20px",
+                                            "marginTop": "12px",
+                                            "flexDirection": "row",
+                                            "justifyContent": "space-between"
+                                        },
+                                        "className": "view_8"
+                                    },
+                                    "rect": {
+                                        "x": 28,
+                                        "y": 146,
+                                        "width": 319,
+                                        "height": 20
+                                    },
+                                    "componentName": "Div",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "children": [
+                                        {
+                                            "id": "ACC8BB29-A02E-4E5E-BF2C-23387395BA25",
+                                            "name": "小组成员",
+                                            "props": {
+                                                "style": {
+                                                    "color": "rgba(51,51,51,1)",
+                                                    "fontSize": "14px",
+                                                    "fontFamily": "PingFangSC-Regular",
+                                                    "fontWeight": "400",
+                                                    "lineHeight": "20px",
+                                                    "textAlign": "left",
+                                                    "textAlignVertical": "center",
+                                                    "height": "20px",
+                                                    "whiteSpace": "nowrap",
+                                                    "opacity": 1
+                                                },
+                                                "className": "text_3",
+                                                "text": "小组成员",
+                                                "lines": 1
+                                            },
+                                            "rect": {
+                                                "x": 28,
+                                                "y": 146,
+                                                "width": 0,
+                                                "height": 20
+                                            },
+                                            "componentName": "Text",
+                                            "intelligent": {
+                                                "layout_opt": {},
+                                                "is_need_detection": false
+                                            },
+                                            "isInteractive": false,
+                                            "lowcodeType": "KunBasicContainer",
+                                            "ui_library_type": "",
+                                            "ui_component_type": "",
+                                            "parentId": "c1bthbsf",
+                                            "isLeaf": true,
+                                            "isHover": false,
+                                            "isClick": false
+                                        },
+                                        {
+                                            "id": "135259D8-D06F-4008-946B-72CFCAC0589A",
+                                            "name": "选择",
+                                            "props": {
+                                                "style": {
+                                                    "color": "rgba(255,113,42,1)",
+                                                    "fontSize": "14px",
+                                                    "fontFamily": "PingFangSC-Medium",
+                                                    "fontWeight": "500",
+                                                    "lineHeight": "20px",
+                                                    "textAlign": "center",
+                                                    "textAlignVertical": "center",
+                                                    "height": "20px",
+                                                    "whiteSpace": "nowrap",
+                                                    "opacity": 1
+                                                },
+                                                "className": "text_4",
+                                                "text": "选择",
+                                                "lines": 1
+                                            },
+                                            "rect": {
+                                                "x": 319,
+                                                "y": 146,
+                                                "width": 0,
+                                                "height": 20
+                                            },
+                                            "componentName": "Text",
+                                            "intelligent": {
+                                                "layout_opt": {},
+                                                "is_need_detection": false
+                                            },
+                                            "isInteractive": false,
+                                            "lowcodeType": "KunBasicContainer",
+                                            "ui_library_type": "",
+                                            "ui_component_type": "",
+                                            "parentId": "c1bthbsf",
+                                            "isLeaf": true,
+                                            "isHover": false,
+                                            "isClick": false
+                                        }
+                                    ],
+                                    "parentId": "5F871EA4-44D7-4815-A4E3-EF979B3D7052",
+                                    "isLeaf": false,
+                                    "isHover": false,
+                                    "isClick": false
+                                },
+                                {
+                                    "id": "3FEAA358-661E-457D-88F7-E62EF979CEA9",
+                                    "name": "3人：左小西、苏苏、张科",
+                                    "props": {
+                                        "style": {
+                                            "color": "rgba(51,51,51,1)",
+                                            "fontSize": "14px",
+                                            "fontFamily": "PingFangSC-Regular",
+                                            "fontWeight": "400",
+                                            "lineHeight": "20px",
+                                            "textAlign": "left",
+                                            "textAlignVertical": "center",
+                                            "height": "20px",
+                                            "marginTop": "8px",
+                                            "whiteSpace": "nowrap",
+                                            "opacity": 1
+                                        },
+                                        "className": "text_5",
+                                        "text": "3人：左小西、苏苏、张科",
+                                        "lines": 1
+                                    },
+                                    "rect": {
+                                        "x": 28,
+                                        "y": 174,
+                                        "width": 0,
+                                        "height": 20
+                                    },
+                                    "componentName": "Text",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "parentId": "5F871EA4-44D7-4815-A4E3-EF979B3D7052",
+                                    "isLeaf": true,
+                                    "isHover": false,
+                                    "isClick": false
+                                }
+                            ],
+                            "parentId": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+                            "isLeaf": false,
+                            "isHover": false,
+                            "isClick": false
+                        },
+                        {
+                            "id": "C6E30FA3-B8D8-4157-B4EF-56CD1D4E1E31",
+                            "name": "路径 29备份 9",
+                            "props": {
+                                "style": {
+                                    "width": "319px",
+                                    "height": "1px",
+                                    "marginTop": "1px",
+                                    "marginLeft": "12px",
+                                    "opacity": 1
+                                },
+                                "className": "imageView_6",
+                                "src": "http://10.250.134.83:9000/d2c-img/img/C6E30FA3-B8D8-4157-B4EF-56CD1D4E1E31@2x.png"
+                            },
+                            "rect": {
+                                "x": 28,
+                                "y": 207,
+                                "width": 319,
+                                "height": 1
+                            },
+                            "componentName": "Image",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "parentId": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+                            "isLeaf": true,
+                            "isHover": false,
+                            "isClick": false
+                        },
+                        {
+                            "id": "v554tklp",
+                            "name": "Row",
+                            "props": {
+                                "style": {
+                                    "display": "flex",
+                                    "width": "319px",
+                                    "height": "20px",
+                                    "marginTop": "16px",
+                                    "marginLeft": "12px",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between"
+                                },
+                                "className": "view_9"
+                            },
+                            "rect": {
+                                "x": 28,
+                                "y": 224,
+                                "width": 319,
+                                "height": 20
+                            },
+                            "componentName": "Div",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "children": [
+                                {
+                                    "id": "FAB1DB01-9CD1-4C04-A6C0-0D62212CBCC4",
+                                    "name": "团队长",
+                                    "props": {
+                                        "style": {
+                                            "color": "rgba(51,51,51,1)",
+                                            "fontSize": "14px",
+                                            "fontFamily": "PingFangSC-Regular",
+                                            "fontWeight": "400",
+                                            "lineHeight": "20px",
+                                            "textAlign": "left",
+                                            "textAlignVertical": "center",
+                                            "height": "20px",
+                                            "whiteSpace": "nowrap",
+                                            "opacity": 1
+                                        },
+                                        "className": "text_6",
+                                        "text": "团队长",
+                                        "lines": 1
+                                    },
+                                    "rect": {
+                                        "x": 28,
+                                        "y": 224,
+                                        "width": 0,
+                                        "height": 20
+                                    },
+                                    "componentName": "Text",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "parentId": "v554tklp",
+                                    "isLeaf": true,
+                                    "isHover": false,
+                                    "isClick": false
+                                },
+                                {
+                                    "id": "BF64EB23-72D0-4A6C-B529-CBE81E66DAB9",
+                                    "name": "选择备份",
+                                    "props": {
+                                        "style": {
+                                            "color": "rgba(255,113,42,1)",
+                                            "fontSize": "14px",
+                                            "fontFamily": "PingFangSC-Medium",
+                                            "fontWeight": "500",
+                                            "lineHeight": "20px",
+                                            "textAlign": "center",
+                                            "textAlignVertical": "center",
+                                            "height": "20px",
+                                            "whiteSpace": "nowrap",
+                                            "opacity": 1
+                                        },
+                                        "className": "text_7",
+                                        "text": "选择",
+                                        "lines": 1
+                                    },
+                                    "rect": {
+                                        "x": 319,
+                                        "y": 224,
+                                        "width": 0,
+                                        "height": 20
+                                    },
+                                    "componentName": "Text",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "parentId": "v554tklp",
+                                    "isLeaf": true,
+                                    "isHover": false,
+                                    "isClick": false
+                                }
+                            ],
+                            "parentId": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+                            "isLeaf": false,
+                            "isHover": false,
+                            "isClick": false
+                        },
+                        {
+                            "id": "91A91890-30CE-4A21-9630-45B5BA218EB4",
+                            "name": "1人：范范",
+                            "props": {
+                                "style": {
+                                    "color": "rgba(51,51,51,1)",
+                                    "fontSize": "14px",
+                                    "fontFamily": "PingFangSC-Regular",
+                                    "fontWeight": "400",
+                                    "lineHeight": "20px",
+                                    "textAlign": "left",
+                                    "textAlignVertical": "center",
+                                    "height": "20px",
+                                    "marginTop": "8px",
+                                    "marginLeft": "12px",
+                                    "whiteSpace": "nowrap",
+                                    "opacity": 1
+                                },
+                                "className": "text_8",
+                                "text": "1人：范范",
+                                "lines": 1
+                            },
+                            "rect": {
+                                "x": 28,
+                                "y": 252,
+                                "width": 0,
+                                "height": 20
+                            },
+                            "componentName": "Text",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "parentId": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+                            "isLeaf": true,
+                            "isHover": false,
+                            "isClick": false
+                        }
+                    ],
+                    "parentId": "7A2F365B-79BB-4BFF-9301-0B1576695692",
+                    "isLeaf": false,
+                    "isHover": false,
+                    "isClick": false
+                },
+                {
+                    "id": "68FEF82A-1FE1-4E60-A6AA-78826B13E665",
+                    "name": "矩形备份",
+                    "props": {
+                        "style": {
+                            "display": "flex",
+                            "width": "343px",
+                            "height": "45px",
+                            "backgroundColor": "rgba(255,255,255,1)",
+                            "borderRadius": "8px",
+                            "marginTop": "12px",
+                            "marginLeft": "16px",
+                            "flexDirection": "column",
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                            "opacity": 1
+                        },
+                        "className": "view_10"
+                    },
+                    "rect": {
+                        "x": 16,
+                        "y": 300,
+                        "width": 343,
+                        "height": 45
+                    },
+                    "componentName": "Div",
+                    "intelligent": {
+                        "layout_opt": {},
+                        "is_need_detection": false
+                    },
+                    "isInteractive": false,
+                    "lowcodeType": "KunBasicContainer",
+                    "ui_library_type": "",
+                    "ui_component_type": "",
+                    "children": [
+                        {
+                            "id": "7865FDBE-6FB0-4957-8A1A-F4F905E1209D",
+                            "name": "新增小组",
+                            "props": {
+                                "style": {
+                                    "color": "rgba(255,113,42,1)",
+                                    "fontSize": "14px",
+                                    "fontFamily": "PingFangSC-Medium",
+                                    "fontWeight": "500",
+                                    "lineHeight": "20px",
+                                    "textAlign": "center",
+                                    "textAlignVertical": "center",
+                                    "height": "20px",
+                                    "whiteSpace": "nowrap",
+                                    "opacity": 1
+                                },
+                                "className": "text_9",
+                                "text": "新增小组",
+                                "lines": 1
+                            },
+                            "rect": {
+                                "x": 160,
+                                "y": 313,
+                                "width": 0,
+                                "height": 20
+                            },
+                            "componentName": "Text",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "parentId": "68FEF82A-1FE1-4E60-A6AA-78826B13E665",
+                            "isLeaf": true,
+                            "isHover": false,
+                            "isClick": false
+                        }
+                    ],
+                    "parentId": "7A2F365B-79BB-4BFF-9301-0B1576695692",
+                    "isLeaf": false,
+                    "isHover": false,
+                    "isClick": false
+                },
+                {
+                    "id": "3608EBBE-1737-469F-AC7E-03444A7E0C2F",
+                    "name": "矩形",
+                    "props": {
+                        "style": {
+                            "display": "flex",
+                            "width": "375px",
+                            "height": "64px",
+                            "backgroundColor": "rgba(255,255,255,1)",
+                            "marginTop": "403px",
+                            "flexDirection": "column",
+                            "opacity": 1
+                        },
+                        "className": "view_11"
+                    },
+                    "rect": {
+                        "x": 0,
+                        "y": 748,
+                        "width": 375,
+                        "height": 64
+                    },
+                    "componentName": "Div",
+                    "intelligent": {
+                        "layout_opt": {},
+                        "is_need_detection": false
+                    },
+                    "isInteractive": false,
+                    "lowcodeType": "KunBasicContainer",
+                    "ui_library_type": "",
+                    "ui_component_type": "",
+                    "children": [
+                        {
+                            "id": "C99EF6B2-E5D8-410F-91A2-3A8291F9677E",
+                            "name": "矩形备份 26",
+                            "props": {
+                                "style": {
+                                    "display": "flex",
+                                    "width": "322px",
+                                    "height": "40px",
+                                    "backgroundColor": "rgba(255,113,42,1)",
+                                    "borderRadius": "20px",
+                                    "marginTop": "12px",
+                                    "marginLeft": "27px",
+                                    "flexDirection": "column",
+                                    "alignItems": "center",
+                                    "justifyContent": "center",
+                                    "opacity": 1
+                                },
+                                "className": "view_12"
+                            },
+                            "rect": {
+                                "x": 27,
+                                "y": 760,
+                                "width": 322,
+                                "height": 40
+                            },
+                            "componentName": "Div",
+                            "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": false
+                            },
+                            "isInteractive": false,
+                            "lowcodeType": "KunBasicContainer",
+                            "ui_library_type": "",
+                            "ui_component_type": "",
+                            "children": [
+                                {
+                                    "id": "17EDD8BB-296F-4348-ACA7-D645B4283F4B",
+                                    "name": "确认",
+                                    "props": {
+                                        "style": {
+                                            "color": "rgba(255,255,255,1)",
+                                            "fontSize": "16px",
+                                            "fontFamily": "PingFangSC-Semibold",
+                                            "fontWeight": "700",
+                                            "lineHeight": "22px",
+                                            "textAlign": "center",
+                                            "textAlignVertical": "center",
+                                            "height": "22px",
+                                            "whiteSpace": "nowrap",
+                                            "opacity": 1
+                                        },
+                                        "className": "text_10",
+                                        "text": "确认",
+                                        "lines": 1
+                                    },
+                                    "rect": {
+                                        "x": 172,
+                                        "y": 769,
+                                        "width": 0,
+                                        "height": 22
+                                    },
+                                    "componentName": "Text",
+                                    "intelligent": {
+                                        "layout_opt": {},
+                                        "is_need_detection": false
+                                    },
+                                    "isInteractive": false,
+                                    "lowcodeType": "KunBasicContainer",
+                                    "ui_library_type": "",
+                                    "ui_component_type": "",
+                                    "parentId": "C99EF6B2-E5D8-410F-91A2-3A8291F9677E",
+                                    "isLeaf": true,
+                                    "isHover": false,
+                                    "isClick": false
+                                }
+                            ],
+                            "parentId": "3608EBBE-1737-469F-AC7E-03444A7E0C2F",
+                            "isLeaf": false,
+                            "isHover": false,
+                            "isClick": false
+                        }
+                    ],
+                    "parentId": "7A2F365B-79BB-4BFF-9301-0B1576695692",
+                    "isLeaf": false,
+                    "isHover": false,
+                    "isClick": false
+                }
+            ],
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "isLeaf": false,
+            "isHover": false,
+            "isClick": false
+        }
+    ],
+    "isLeaf": false,
+    "isHover": false,
+    "isClick": false
+}

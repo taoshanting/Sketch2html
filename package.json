@@ -1,0 +1,47 @@
+{
+  "name": "sketch-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Transform Sketch designs to frontend code",
+  "main": "src/index.js",
+  "bin": {
+    "sketch2code": "./bin/sketch2code"
+  },
+  "scripts": {
+    "start": "node examples/transform-example.js",
+    "generate": "node examples/code-generation-example.js",
+    "test": "node test/transformer-simple.test.js",
+    "test:json": "node test/sketch-json-converter.test.js",
+    "example:json": "node examples/sketch-json-example.js",
+    "mcp": "node sketch2Web.js",
+    "lint": "echo 'Add your lint script here'",
+    "format": "echo 'Add your format script here'"
+  },
+  "keywords": [
+    "sketch",
+    "design-to-code",
+    "ui",
+    "react",
+    "vue",
+    "html"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sketch-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/sketch-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/sketch-mcp#readme"
+}
