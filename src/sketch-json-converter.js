@@ -1578,24 +1578,38 @@ export class JSONTransformer {
         element.isClick = false;
 
         // 创建 Row 的布局信息，用于优化子元素样式
+        // 从 _rowStyle 中提取 gap 值
+        const gapMatch = rowWrapper._rowStyle.gap?.match(/(\d+)px/);
+        const gapValue = gapMatch ? parseInt(gapMatch[1]) : null;
+
         const rowLayoutInfo = {
             type: rowWrapper._rowStyle.justifyContent === 'space-between' ? 'space-between' : 'row',
             flexDirection: 'row',
             alignItems: rowWrapper._rowStyle.alignItems || null,
             justifyContent: rowWrapper._rowStyle.justifyContent || null,
-            gap: null
+            gap: gapValue
         };
 
-        // 处理子元素
+        // 处理子元素 - 对于 row 布局，需要跟踪前一个兄弟元素的右边缘
         if (rowWrapper.children && rowWrapper.children.length > 0) {
-            element.children = rowWrapper.children.map(child => {
-                return this.transformElement(
+            // 按 X 坐标排序子元素
+            const sortedChildren = [...rowWrapper.children].sort(
+                (a, b) => (a.frame?.x || 0) - (b.frame?.x || 0)
+            );
+
+            let prevRight = rowWrapper.frame?.x || 0; // 初始为父元素左边缘
+            element.children = sortedChildren.map((child, index) => {
+                const transformed = this.transformElement(
                     child,
                     rowWrapper.id,
                     rowWrapper.frame,
                     0,
-                    rowLayoutInfo
+                    rowLayoutInfo,
+                    prevRight  // 传递前一个兄弟的右边缘
                 );
+                // 更新 prevRight 为当前元素的右边缘
+                prevRight = (child.frame?.x || 0) + (child.frame?.width || 0);
+                return transformed;
             });
         } else {
             element.children = [];
@@ -1611,9 +1625,10 @@ export class JSONTransformer {
      * @param {Object} parentFrame - 父元素 frame
      * @param {number} prevBottom - 前一个兄弟元素的底部
      * @param {Object} layoutInfo - 父元素的布局信息（用于优化子元素样式）
+     * @param {number} prevRight - 前一个兄弟元素的右边缘（用于 row 布局）
      * @returns {Object} 低代码格式元素
      */
-    transformElement(layer, parentId = null, parentFrame = null, prevBottom = 0, layoutInfo = null) {
+    transformElement(layer, parentId = null, parentFrame = null, prevBottom = 0, layoutInfo = null, prevRight = null) {
         // 处理 Row 包装容器
         if (layer._isRowWrapper) {
             return this.transformRowWrapper(layer, parentId, parentFrame, prevBottom);
@@ -1622,6 +1637,16 @@ export class JSONTransformer {
         const componentName = this.detectComponentName(layer.type);
         const className = this.generateClassName(componentName);
         let style = this.buildPropsStyle(layer, parentFrame, prevBottom);
+
+        // 对于 row 布局，使用前一个兄弟元素的右边缘计算 marginLeft
+        if (layoutInfo && layoutInfo.flexDirection === 'row' && prevRight !== null && layer.frame) {
+            const correctMarginLeft = layer.frame.x - prevRight;
+            if (correctMarginLeft > 0) {
+                style.marginLeft = `${correctMarginLeft}px`;
+            } else {
+                delete style.marginLeft;
+            }
+        }
 
         // 如果有父元素的布局信息，优化当前元素的样式
         if (layoutInfo && layoutInfo.type !== 'default') {
