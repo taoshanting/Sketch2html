@@ -514,6 +514,15 @@ server.tool(
         const allArtboards = [];
         let globalIndex = 0;
 
+         return {
+                content: [
+                    {
+                        type: "text",
+                        text: JSON.stringify(currentSketchData)
+                    }
+                ]
+            };
+
         // 遍历所有页面，收集画板信息
         currentSketchData.pages.forEach((page, pageIndex) => {
             if (page.data?.layers) {

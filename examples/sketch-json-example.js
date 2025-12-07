@@ -4,7 +4,7 @@ import fs from 'fs/promises';
 
 /**
  * Sketch JSON 转换示例
- * 演示如何使用转换器将 sketch2.json 转换为 HTML
+ * 演示如何使用转换器将 sketch3.json 转换为 HTML
  */
 
 async function convertExample() {
@@ -12,8 +12,8 @@ async function convertExample() {
     const converter = new SketchJSONConverter();
 
     try {
-        // 加载 sketch2.json 文件
-        const jsonPath = path.resolve('./sketch2.json');
+        // 加载 sketch3.json 文件
+        const jsonPath = path.resolve('./sketch3.json');
         console.log('📂 加载 JSON 文件:', jsonPath);
 
         await converter.loadJSON(jsonPath);
@@ -41,7 +41,7 @@ async function convertExample() {
  */
 async function quickConvertExample() {
     try {
-        const jsonPath = path.resolve('./sketch2.json');
+        const jsonPath = path.resolve('./sketch3.json');
         const outputPath = path.resolve('./output-quick.html');
 
         // 使用便捷函数
@@ -61,7 +61,7 @@ async function quickConvertExample() {
  */
 async function batchConvertExample() {
     const converter = new SketchJSONConverter();
-    const jsonFiles = ['./sketch2.json', './sketch1.json']; // 要转换的文件列表
+    const jsonFiles = ['./sketch3.json', './sketch1.json']; // 要转换的文件列表
 
     for (const file of jsonFiles) {
         try {
@@ -90,7 +90,7 @@ async function transformJSONExample() {
     console.log('📦 开始 JSON 格式转换...\n');
 
     try {
-        const jsonPath = path.resolve('./sketch2.json');
+        const jsonPath = path.resolve('./sketch3.json');
         const outputPath = path.resolve('./output-lowcode.json');
 
         // 使用便捷函数转换
@@ -135,7 +135,7 @@ async function transformJSONDetailedExample() {
 
     try {
         // 加载源 JSON
-        const jsonPath = path.resolve('./sketch2.json');
+        const jsonPath = path.resolve('./sketch3.json');
         const fileContent = await fs.readFile(jsonPath, 'utf8');
         const sourceData = JSON.parse(fileContent);
 

@@ -8,7 +8,7 @@
     "sketch2code": "./bin/sketch2code"
   },
   "scripts": {
-    "start": "node examples/transform-example.js",
+    "start": "npx @modelcontextprotocol/inspector node sketch2Web.js",
     "generate": "node examples/code-generation-example.js",
     "test": "node test/transformer-simple.test.js",
     "test:json": "node test/sketch-json-converter.test.js",
@@ -28,7 +28,11 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^4.7.7"
+    "@modelcontextprotocol/inspector": "^0.17.5",
+    "@modelcontextprotocol/sdk": "^1.24.3",
+    "adm-zip": "^0.5.16",
+    "handlebars": "^4.7.7",
+    "zod": "^4.1.13"
   },
   "devDependencies": {
     "prettier": "^2.8.0"
