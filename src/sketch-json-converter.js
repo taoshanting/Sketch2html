@@ -1162,6 +1162,62 @@ export class JSONTransformer {
     }
 
     /**
+     * 解析 opacity 值（支持多种格式）
+     * @param {number|Object} opacity - opacity 值或 BigDecimal 对象
+     * @returns {number} 解析后的 opacity 值 (0-1)
+     */
+    parseOpacity(opacity) {
+        // undefined 返回默认值 1
+        if (opacity === undefined || opacity === null) {
+            return 1;
+        }
+
+        // number 类型直接返回
+        if (typeof opacity === 'number') {
+            return opacity;
+        }
+
+        // BigDecimal 对象格式 {s, e, c}
+        // s: 符号 (1 或 -1)
+        // e: 指数
+        // c: 系数数组
+        if (typeof opacity === 'object' && opacity.c && Array.isArray(opacity.c)) {
+            const s = opacity.s || 1;
+            const e = opacity.e || 0;
+            const c = opacity.c;
+
+            // 计算值: c[0] / c[1] * 10^e (如果 c 有两个元素)
+            // 或者 c[0] * 10^e (如果 c 只有一个元素)
+            let value;
+            if (c.length >= 2) {
+                value = (c[0] / c[1]) * Math.pow(10, e);
+            } else {
+                value = c[0] * Math.pow(10, e);
+            }
+
+            return Math.max(0, Math.min(1, s * value));
+        }
+
+        return 1;
+    }
+
+    /**
+     * 解析 border 对象为 CSS border 字符串
+     * @param {Object} border - border 对象 {width, color, position}
+     * @returns {string|null} CSS border 字符串或 null
+     */
+    parseBorder(border) {
+        if (!border || typeof border !== 'object') {
+            return null;
+        }
+
+        const width = border.width || 1;
+        const color = border.color ? this.convertToRgba(border.color) : 'rgba(0,0,0,1)';
+
+        return `${width}px solid ${color}`;
+    }
+
+    /**
      * 构建 props.style 对象
      * @param {Object} layer - 原始图层
      * @param {Object} parentFrame - 父元素 frame
@@ -1171,7 +1227,7 @@ export class JSONTransformer {
     buildPropsStyle(layer, parentFrame = null, prevBottom = 0) {
         const style = {
             display: 'flex',
-            opacity: layer.opacity !== undefined ? layer.opacity : 1
+            opacity: this.parseOpacity(layer.opacity)
         };
 
         // 尺寸
@@ -1191,9 +1247,21 @@ export class JSONTransformer {
             }
         }
 
+        // 渐变背景（优先）
+        if (layer.background) {
+            style.background = layer.background;
+        }
         // 背景色
-        if (layer.backgroundColor) {
+        else if (layer.backgroundColor) {
             style.backgroundColor = this.convertToRgba(layer.backgroundColor);
+        }
+
+        // 边框
+        if (layer.border) {
+            const borderStyle = this.parseBorder(layer.border);
+            if (borderStyle) {
+                style.border = borderStyle;
+            }
         }
 
         // 圆角
@@ -1434,6 +1502,49 @@ export class JSONTransformer {
     }
 
     /**
+     * 检测紧密相邻的元素组（按 X 间距分组）
+     * @param {Array} rowElements - 同一行的元素数组
+     * @param {number} gapThreshold - 间距阈值（默认 30px）
+     * @returns {Array} 紧密相邻的元素组数组
+     */
+    detectCloseGroups(rowElements, gapThreshold = 30) {
+        if (!rowElements || rowElements.length === 0) return [];
+        if (rowElements.length === 1) return [rowElements];
+
+        // 按 X 坐标排序
+        const sorted = [...rowElements].sort((a, b) => (a.frame?.x || 0) - (b.frame?.x || 0));
+
+        const groups = [];
+        let currentGroup = [sorted[0]];
+
+        for (let i = 1; i < sorted.length; i++) {
+            const prev = sorted[i - 1];
+            const curr = sorted[i];
+
+            // 计算间距：当前元素左边缘 - 前一个元素右边缘
+            const prevRight = (prev.frame?.x || 0) + (prev.frame?.width || 0);
+            const currLeft = curr.frame?.x || 0;
+            const gap = currLeft - prevRight;
+
+            if (gap <= gapThreshold) {
+                // 间距小于阈值，加入当前组
+                currentGroup.push(curr);
+            } else {
+                // 间距大于阈值，开始新组
+                groups.push(currentGroup);
+                currentGroup = [curr];
+            }
+        }
+
+        // 添加最后一组
+        if (currentGroup.length > 0) {
+            groups.push(currentGroup);
+        }
+
+        return groups;
+    }
+
+    /**
      * 对子元素应用行分组
      * @param {Array} children - 子元素数组
      * @param {Object} parentFrame - 父元素 frame
@@ -1450,10 +1561,20 @@ export class JSONTransformer {
                 // 单元素行，保持不变
                 result.push(row[0]);
             } else {
-                // 多元素行，创建 Row 包装器
-                const rowWrapper = this.createRowWrapper(row, parentFrame);
-                if (rowWrapper) {
-                    result.push(rowWrapper);
+                // 多元素行，先按 X 间距分组
+                const closeGroups = this.detectCloseGroups(row);
+
+                for (const group of closeGroups) {
+                    if (group.length === 1) {
+                        // 单元素组，保持不变
+                        result.push(group[0]);
+                    } else {
+                        // 多元素组，创建 Row 包装器
+                        const rowWrapper = this.createRowWrapper(group, parentFrame);
+                        if (rowWrapper) {
+                            result.push(rowWrapper);
+                        }
+                    }
                 }
             }
         }
@@ -1522,9 +1643,10 @@ export class JSONTransformer {
      * @param {string} parentId - 父元素 ID
      * @param {Object} parentFrame - 父元素 frame
      * @param {number} prevBottom - 前一个兄弟元素的底部
+     * @param {number} prevRight - 前一个兄弟元素的右边缘（用于 row 布局）
      * @returns {Object} 低代码格式元素
      */
-    transformRowWrapper(rowWrapper, parentId = null, parentFrame = null, prevBottom = 0) {
+    transformRowWrapper(rowWrapper, parentId = null, parentFrame = null, prevBottom = 0, prevRight = null) {
         const className = this.generateClassName('Div');
 
         // 计算 Row 容器的样式
@@ -1540,7 +1662,10 @@ export class JSONTransformer {
             style.height = `${rowWrapper.frame.height}px`;
 
             if (parentFrame) {
-                const marginLeft = rowWrapper.frame.x - parentFrame.x;
+                // 如果有前一个兄弟元素的右边缘，使用它计算 marginLeft
+                const marginLeft = prevRight !== null
+                    ? rowWrapper.frame.x - prevRight
+                    : rowWrapper.frame.x - parentFrame.x;
                 const marginTop = prevBottom > 0
                     ? rowWrapper.frame.y - prevBottom
                     : rowWrapper.frame.y - parentFrame.y;
@@ -1631,7 +1756,7 @@ export class JSONTransformer {
     transformElement(layer, parentId = null, parentFrame = null, prevBottom = 0, layoutInfo = null, prevRight = null) {
         // 处理 Row 包装容器
         if (layer._isRowWrapper) {
-            return this.transformRowWrapper(layer, parentId, parentFrame, prevBottom);
+            return this.transformRowWrapper(layer, parentId, parentFrame, prevBottom, prevRight);
         }
 
         const componentName = this.detectComponentName(layer.type);
@@ -1721,15 +1846,18 @@ export class JSONTransformer {
             }
 
             let currentBottom = layer.frame ? layer.frame.y : 0;
+            let currentRight = layer.frame ? layer.frame.x : 0; // 跟踪前一个兄弟的右边缘
             element.children = reorganized.map(child => {
                 const transformed = this.transformElement(
                     child,
                     layer.id,
                     layer.frame,
                     currentBottom,
-                    childLayoutInfo  // 传递布局信息给子元素
+                    childLayoutInfo,  // 传递布局信息给子元素
+                    childLayoutInfo.flexDirection === 'row' ? currentRight : null  // row 布局时传递 prevRight
                 );
                 currentBottom = (child.frame?.y || 0) + (child.frame?.height || 0);
+                currentRight = (child.frame?.x || 0) + (child.frame?.width || 0);
                 return transformed;
             });
         } else {

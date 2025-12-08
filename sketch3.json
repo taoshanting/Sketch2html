@@ -1,11 +1,11 @@
 {
-    "id": "B835771E-49F9-490A-A377-A85CF98727E8",
+    "id": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
     "parentId": null,
-    "name": "2制定目标概览页",
+    "name": "7已创建1个小组",
     "type": "artboard",
     "frame": {
-        "x": 840,
-        "y": 132,
+        "x": 584,
+        "y": 165,
         "width": 375,
         "height": 812
     },
@@ -15,8 +15,8 @@
     "borderRadius": 0,
     "children": [
         {
-            "id": "F41E65EA-5CDC-4294-BB4C-9EBBE3DD7162",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
+            "id": "C6520EAF-D7CE-4418-815E-E536374BF7A4",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
             "name": "矩形",
             "type": "rectangle",
             "frame": {
@@ -35,14 +35,14 @@
             "children": []
         },
         {
-            "id": "FF9283B3-2697-44BF-B1E5-A008AAA4FF35",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "制定下月目标",
+            "id": "B0F46FBB-1FEB-4A81-B268-B4DEBF6666C7",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "分组",
             "type": "text",
             "frame": {
-                "x": 134,
+                "x": 170,
                 "y": 36,
-                "width": 108,
+                "width": 36,
                 "height": 25
             },
             "isVisible": true,
@@ -50,7 +50,7 @@
             "rotation": 0,
             "borderRadius": 0,
             "text": {
-                "content": "制定下月目标",
+                "content": "分组",
                 "fontFamily": "PingFangSC-Semibold",
                 "fontSize": 18,
                 "color": "rgb(255, 255, 255)",
@@ -60,8 +60,8 @@
             "children": []
         },
         {
-            "id": "6F0DA1AF-32B5-4A0E-BD2F-6487FBE16B49",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
+            "id": "C0A78806-DFF3-4F58-999B-14076881E5A3",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
             "name": "nav_icon_back",
             "type": "symbolInstance",
             "frame": {
@@ -77,8 +77,8 @@
             "children": []
         },
         {
-            "id": "9E548AD1-747D-4CE4-A6DC-08795555D4EB",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
+            "id": "7A2F365B-79BB-4BFF-9301-0B1576695692",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
             "name": "矩形",
             "type": "rectangle",
             "frame": {
@@ -95,2979 +95,8 @@
             "children": []
         },
         {
-            "id": "EFBAA5D1-C9BB-4167-96E1-70428AA37AE3",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份",
-            "type": "rectangle",
-            "frame": {
-                "x": 10,
-                "y": 225,
-                "width": 355,
-                "height": 172
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "EE14035E-AA6F-431F-B054-EE1B53C856D0",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 38",
-            "type": "rectangle",
-            "frame": {
-                "x": 10,
-                "y": 407,
-                "width": 355,
-                "height": 172
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "BA0D9B60-78D0-414B-B199-8E9AC2127DE8",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 87",
-            "type": "rectangle",
-            "frame": {
-                "x": 10,
-                "y": 589,
-                "width": 355,
-                "height": 172
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "FD22862E-E19A-4593-8F56-192E50BCBE62",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 22,
-                "y": 270,
-                "width": 331,
-                "height": 116
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(247, 247, 247)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "4ACB30F7-0C22-4294-A30A-2B9995984450",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 55",
-            "type": "rectangle",
-            "frame": {
-                "x": 22,
-                "y": 451,
-                "width": 331,
-                "height": 116
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(247, 247, 247)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "6B44C98F-1653-4DCF-B2B6-94B0DD7B92EE",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 88",
-            "type": "rectangle",
-            "frame": {
-                "x": 22,
-                "y": 633,
-                "width": 331,
-                "height": 116
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(247, 247, 247)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "0EBBFC0B-7334-416D-A371-CC7076EFF450",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 34,
-                "y": 325,
-                "width": 307,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "border": {
-                "width": 1,
-                "color": "rgb(250, 205, 174)",
-                "position": 1
-            },
-            "borderRadius": 2,
-            "children": []
-        },
-        {
-            "id": "95074E64-C3F6-446F-A40C-B4D9B607AC93",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 57",
-            "type": "rectangle",
-            "frame": {
-                "x": 34,
-                "y": 507,
-                "width": 307,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "border": {
-                "width": 1,
-                "color": "rgb(250, 205, 174)",
-                "position": 1
-            },
-            "borderRadius": 2,
-            "children": []
-        },
-        {
-            "id": "02AD7018-0811-45ED-A580-5A4CC4613FB7",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 89",
-            "type": "rectangle",
-            "frame": {
-                "x": 34,
-                "y": 689,
-                "width": 307,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "border": {
-                "width": 1,
-                "color": "rgb(250, 205, 174)",
-                "position": 1
-            },
-            "borderRadius": 2,
-            "children": []
-        },
-        {
-            "id": "2356D1B7-987C-4270-854D-71C2212D0347",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 22,
-                "y": 225,
-                "width": 331,
-                "height": 44
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "borderRadius": 0,
-            "shadows": [],
-            "children": []
-        },
-        {
-            "id": "A57FC07A-AC11-4B72-938D-3C2319440090",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 66",
-            "type": "rectangle",
-            "frame": {
-                "x": 22,
-                "y": 407,
-                "width": 331,
-                "height": 44
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "borderRadius": 0,
-            "shadows": [],
-            "children": []
-        },
-        {
-            "id": "07393D7C-3043-4D72-BEF4-AD96BFEDB50B",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 90",
-            "type": "rectangle",
-            "frame": {
-                "x": 22,
-                "y": 589,
-                "width": 331,
-                "height": 44
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "borderRadius": 0,
-            "shadows": [],
-            "children": []
-        },
-        {
-            "id": "4BA61657-99F2-4CC7-97A9-E6BD009F0DD2",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "左小西",
-            "type": "text",
-            "frame": {
-                "x": 50,
-                "y": 237,
-                "width": 42,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "左小西",
-                "fontFamily": "PingFangSC-Medium",
-                "fontSize": 14,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "7E1EDAEE-DCFC-404C-A8AB-6E5CF0BD4783",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "苏丽",
-            "type": "text",
-            "frame": {
-                "x": 50,
-                "y": 419,
-                "width": 28,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "苏丽",
-                "fontFamily": "PingFangSC-Medium",
-                "fontSize": 14,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "E042E906-7A99-4361-A3DE-E441E935810D",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "吴凡",
-            "type": "text",
-            "frame": {
-                "x": 50,
-                "y": 601,
-                "width": 28,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "吴凡",
-                "fontFamily": "PingFangSC-Medium",
-                "fontSize": 14,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "2B1BD3DB-D99A-4635-9A39-46877897700E",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "MOB12",
-            "type": "text",
-            "frame": {
-                "x": 100,
-                "y": 238,
-                "width": 40,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "MOB12",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "DC842E97-BBFB-42BE-9299-AB7EF7FF8A3C",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "MOB13",
-            "type": "text",
-            "frame": {
-                "x": 86,
-                "y": 420,
-                "width": 40,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "MOB13",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "45AB910B-98F2-4212-A22E-D08327A1D76A",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "MOB36",
-            "type": "text",
-            "frame": {
-                "x": 86,
-                "y": 602,
-                "width": 43,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "MOB36",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "209617C7-8259-4E2D-90B4-7CEA9AE13F86",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "定级：普通",
-            "type": "text",
-            "frame": {
-                "x": 148,
-                "y": 238,
-                "width": 60,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "定级：普通",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "F59251DC-93EF-40E2-9A82-0F5ED68CF79B",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "定级：普通",
-            "type": "text",
-            "frame": {
-                "x": 134,
-                "y": 420,
-                "width": 60,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "定级：普通",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "E0624034-C041-42AD-A2EE-AD0CEE23CCEF",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "定级：资深",
-            "type": "text",
-            "frame": {
-                "x": 137,
-                "y": 602,
-                "width": 60,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "定级：资深",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "39CCE6D9-4021-48E7-8F87-BEEA0286C726",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "选项/未选中_已激活备份 32",
-            "type": "symbolInstance",
-            "frame": {
-                "x": 24,
-                "y": 238,
-                "width": 18,
-                "height": 18
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "D0C4FA1D-2C03-49ED-80B6-0698AEF3ED97",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "选项/未选中_已激活备份 38",
-            "type": "symbolInstance",
-            "frame": {
-                "x": 24,
-                "y": 420,
-                "width": 18,
-                "height": 18
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "453C529C-449C-4894-84CC-F956717198BE",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "选项/未选中_已激活备份 39",
-            "type": "symbolInstance",
-            "frame": {
-                "x": 24,
-                "y": 602,
-                "width": 18,
-                "height": 18
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "1929CC47-1EB4-4E24-B360-C9B75A531FB1",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "近3个月 月人均平台",
-            "type": "text",
-            "frame": {
-                "x": 34,
-                "y": 303,
-                "width": 108,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "近3个月 月人均平台",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "5DE0D7A0-B1E3-4977-9949-6A2E46E86BEF",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "近3个月 月人均平台备份",
-            "type": "text",
-            "frame": {
-                "x": 34,
-                "y": 485,
-                "width": 108,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "近3个月 月人均平台",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "35C2EE32-4EB6-4261-9DD2-F9755C16538E",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "近3个月 月人均平台备份 2",
-            "type": "text",
-            "frame": {
-                "x": 34,
-                "y": 667,
-                "width": 108,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "近3个月 月人均平台",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "2577AA2C-1DB7-4130-9A81-D73D174DBDE3",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "定级缺口：29万",
-            "type": "text",
-            "frame": {
-                "x": 34,
-                "y": 281,
-                "width": 94,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "定级缺口：29万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "18655BF5-62F1-4F7B-9A44-9396EC17BAAF",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "定级缺口：31万",
-            "type": "text",
-            "frame": {
-                "x": 34,
-                "y": 463,
-                "width": 94,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "定级缺口：31万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "5090C98F-A117-427E-B398-48E45CDCD089",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "定级缺口：35万",
-            "type": "text",
-            "frame": {
-                "x": 34,
-                "y": 645,
-                "width": 94,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "定级缺口：35万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "8D0970BC-3E84-4399-A51A-D64BD0938194",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "考核缺口：51万",
-            "type": "text",
-            "frame": {
-                "x": 163,
-                "y": 283,
-                "width": 95,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "考核缺口：51万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "5D51F5FC-FEDB-4BB6-8A11-6FA6131CE98A",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "考核缺口：65万",
-            "type": "text",
-            "frame": {
-                "x": 163,
-                "y": 463,
-                "width": 95,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "考核缺口：65万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "23671728-9A3A-44BC-B9AB-3833B3B48F70",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "考核缺口：38万",
-            "type": "text",
-            "frame": {
-                "x": 163,
-                "y": 645,
-                "width": 95,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "考核缺口：38万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "7AB00D65-5FF9-4EAD-A11D-D5246C43E129",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "机构MOB12-24",
-            "type": "text",
-            "frame": {
-                "x": 95,
-                "y": 328,
-                "width": 84,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "机构MOB12-24",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "8E73971D-434F-42FD-999E-4AD594A2B6D6",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "编组 16备份 3",
-            "type": "group",
-            "frame": {
-                "x": 179,
-                "y": 332,
-                "width": 12,
-                "height": 12
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "8A0FEE34-1EE9-4B6F-A3E4-81CA77D272EA",
-                    "parentId": "8E73971D-434F-42FD-999E-4AD594A2B6D6",
-                    "name": "椭圆形",
-                    "type": "oval",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 12,
-                        "height": 12
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "border": {
-                        "width": 1,
-                        "color": "rgb(151, 151, 151)",
-                        "position": 1
-                    },
-                    "borderRadius": 0,
-                    "children": []
-                },
-                {
-                    "id": "BE2C4AC2-464E-4DC0-9878-87B499013163",
-                    "parentId": "8E73971D-434F-42FD-999E-4AD594A2B6D6",
-                    "name": "？",
-                    "type": "group",
-                    "frame": {
-                        "x": 4,
-                        "y": 3,
-                        "width": 4,
-                        "height": 7
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": [
-                        {
-                            "id": "9E42E0EB-1D2B-4D25-8EB5-E63BC252475C",
-                            "parentId": "BE2C4AC2-464E-4DC0-9878-87B499013163",
-                            "name": "形状",
-                            "type": "shapeGroup",
-                            "frame": {
-                                "x": 0,
-                                "y": 0,
-                                "width": 4,
-                                "height": 7
-                            },
-                            "isVisible": true,
-                            "opacity": 1,
-                            "rotation": 0,
-                            "backgroundColor": "rgb(155, 155, 155)",
-                            "borderRadius": 0,
-                            "children": [
-                                {
-                                    "id": "39CB3168-1B36-4EC9-B5F7-1470E0AFBDB7",
-                                    "parentId": "9E42E0EB-1D2B-4D25-8EB5-E63BC252475C",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 4,
-                                        "height": 5
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "children": []
-                                },
-                                {
-                                    "id": "31A91E19-143D-4E2B-BCFA-AF569E2FCD9B",
-                                    "parentId": "9E42E0EB-1D2B-4D25-8EB5-E63BC252475C",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 1,
-                                        "y": 6,
-                                        "width": 1,
-                                        "height": 1
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "83FCFA55-0C4E-43D7-899E-5E3ED43E768D",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "编组 16备份 4",
-            "type": "group",
-            "frame": {
-                "x": 180,
-                "y": 514,
-                "width": 12,
-                "height": 12
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "6C5A3B92-EA36-404F-A86B-B11ACA33C4DA",
-                    "parentId": "83FCFA55-0C4E-43D7-899E-5E3ED43E768D",
-                    "name": "椭圆形",
-                    "type": "oval",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 12,
-                        "height": 12
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "border": {
-                        "width": 1,
-                        "color": "rgb(151, 151, 151)",
-                        "position": 1
-                    },
-                    "borderRadius": 0,
-                    "children": []
-                },
-                {
-                    "id": "0B6F63A6-CE7D-4484-B56A-32682994F625",
-                    "parentId": "83FCFA55-0C4E-43D7-899E-5E3ED43E768D",
-                    "name": "？",
-                    "type": "group",
-                    "frame": {
-                        "x": 4,
-                        "y": 3,
-                        "width": 4,
-                        "height": 7
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": [
-                        {
-                            "id": "94CBD5D7-5211-4241-875C-0B39AF1FADC6",
-                            "parentId": "0B6F63A6-CE7D-4484-B56A-32682994F625",
-                            "name": "形状",
-                            "type": "shapeGroup",
-                            "frame": {
-                                "x": 0,
-                                "y": 0,
-                                "width": 4,
-                                "height": 7
-                            },
-                            "isVisible": true,
-                            "opacity": 1,
-                            "rotation": 0,
-                            "backgroundColor": "rgb(155, 155, 155)",
-                            "borderRadius": 0,
-                            "children": [
-                                {
-                                    "id": "96E1B856-8E27-4190-9787-AD9B35D98C07",
-                                    "parentId": "94CBD5D7-5211-4241-875C-0B39AF1FADC6",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 4,
-                                        "height": 5
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "children": []
-                                },
-                                {
-                                    "id": "2FD9308A-0224-43CB-8D48-1C9B200E102C",
-                                    "parentId": "94CBD5D7-5211-4241-875C-0B39AF1FADC6",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 1,
-                                        "y": 6,
-                                        "width": 1,
-                                        "height": 1
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "EFE87D3F-D71F-4F2B-B290-283202C6AF44",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "编组 16备份 5",
-            "type": "group",
-            "frame": {
-                "x": 173,
-                "y": 696,
-                "width": 12,
-                "height": 12
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "31AF28F7-9B26-4205-8927-47E6325B709F",
-                    "parentId": "EFE87D3F-D71F-4F2B-B290-283202C6AF44",
-                    "name": "椭圆形",
-                    "type": "oval",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 12,
-                        "height": 12
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "border": {
-                        "width": 1,
-                        "color": "rgb(151, 151, 151)",
-                        "position": 1
-                    },
-                    "borderRadius": 0,
-                    "children": []
-                },
-                {
-                    "id": "F372C643-8D86-48F7-9424-0604FB0CA5E5",
-                    "parentId": "EFE87D3F-D71F-4F2B-B290-283202C6AF44",
-                    "name": "？",
-                    "type": "group",
-                    "frame": {
-                        "x": 4,
-                        "y": 3,
-                        "width": 4,
-                        "height": 7
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": [
-                        {
-                            "id": "AEBDE227-8C93-42BC-AAE1-5EB01B243656",
-                            "parentId": "F372C643-8D86-48F7-9424-0604FB0CA5E5",
-                            "name": "形状",
-                            "type": "shapeGroup",
-                            "frame": {
-                                "x": 0,
-                                "y": 0,
-                                "width": 4,
-                                "height": 7
-                            },
-                            "isVisible": true,
-                            "opacity": 1,
-                            "rotation": 0,
-                            "backgroundColor": "rgb(155, 155, 155)",
-                            "borderRadius": 0,
-                            "children": [
-                                {
-                                    "id": "33E11447-9D00-4CE3-A189-24D3EB04FA0D",
-                                    "parentId": "AEBDE227-8C93-42BC-AAE1-5EB01B243656",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 4,
-                                        "height": 5
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "children": []
-                                },
-                                {
-                                    "id": "B8ADA771-764B-400B-9DF5-5A2A20967834",
-                                    "parentId": "AEBDE227-8C93-42BC-AAE1-5EB01B243656",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 1,
-                                        "y": 6,
-                                        "width": 1,
-                                        "height": 1
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "D3B4B504-38E0-420B-AED4-E2980013C49F",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "机构MOB12-24",
-            "type": "text",
-            "frame": {
-                "x": 96,
-                "y": 510,
-                "width": 84,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "机构MOB12-24",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "76118852-96B6-416F-9376-38E3A21FA5E3",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "机构MOB24+",
-            "type": "text",
-            "frame": {
-                "x": 99,
-                "y": 692,
-                "width": 74,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "机构MOB24+",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "25B9DABF-F126-40C9-9F0F-18CA77898BEC",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "营业部",
-            "type": "text",
-            "frame": {
-                "x": 199,
-                "y": 328,
-                "width": 69,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "营业部",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "B35F625E-D1F9-46AD-BCC4-9A6396F38DAE",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "营业部备份",
-            "type": "text",
-            "frame": {
-                "x": 199,
-                "y": 510,
-                "width": 69,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "营业部",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "456D4232-11FA-43D2-A26A-6D52B752BB94",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "营业部备份 2",
-            "type": "text",
-            "frame": {
-                "x": 199,
-                "y": 692,
-                "width": 69,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "营业部",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "FA556844-F0B1-46A1-9B48-CF50F3F0B297",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "中心",
-            "type": "text",
-            "frame": {
-                "x": 274,
-                "y": 328,
-                "width": 61,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "中心",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "24CB47AE-B21C-4FD4-B2DA-52D1EB233087",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "中心备份",
-            "type": "text",
-            "frame": {
-                "x": 274,
-                "y": 510,
-                "width": 61,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "中心",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "B71EB7B1-E1A1-4715-B693-E60765EA93A4",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "中心备份 2",
-            "type": "text",
-            "frame": {
-                "x": 274,
-                "y": 692,
-                "width": 61,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "中心",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "D4EBCF45-0548-452F-BA83-CCCF2D14B51A",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "DS",
-            "type": "text",
-            "frame": {
-                "x": 43,
-                "y": 328,
-                "width": 42,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "DS",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "55F826F2-34BB-40ED-B0A5-DB21F914F715",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "DS备份",
-            "type": "text",
-            "frame": {
-                "x": 43,
-                "y": 510,
-                "width": 42,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "DS",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "49FF7310-C8DC-4968-A99D-9046BF76C899",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "DS备份 2",
-            "type": "text",
-            "frame": {
-                "x": 43,
-                "y": 692,
-                "width": 42,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "DS",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 11,
-                "color": "rgb(102, 102, 102)",
-                "textAlign": "center",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "AFC470C8-ABE8-48FE-9D64-640A61168C43",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "44.7",
-            "type": "text",
-            "frame": {
-                "x": 52,
-                "y": 352,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "44.7",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "9F6B5F19-56E4-4EE2-89DE-5479A6E54531",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "38.5",
-            "type": "text",
-            "frame": {
-                "x": 52,
-                "y": 534,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "38.5",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "F7F78145-96A7-49D8-A6EB-D53752988B05",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "38.5",
-            "type": "text",
-            "frame": {
-                "x": 52,
-                "y": 716,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "38.5",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "72A9BE39-0620-44D3-89DF-7392D78B1CE8",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "38.8",
-            "type": "text",
-            "frame": {
-                "x": 133,
-                "y": 352,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "38.8",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "F6CAD4C2-A3BE-4CBB-BB9D-95D87941DC8F",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "38.8",
-            "type": "text",
-            "frame": {
-                "x": 133,
-                "y": 534,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "38.8",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "B5637B65-C35E-43FB-BA53-4E088012A18C",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "38.8",
-            "type": "text",
-            "frame": {
-                "x": 133,
-                "y": 716,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "38.8",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "B704A2A7-974D-4522-AAAD-13E5B6F71628",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "87.6",
-            "type": "text",
-            "frame": {
-                "x": 221,
-                "y": 352,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "87.6",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "FD2C0197-AC77-4185-8E84-444F6C61963E",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "87.6",
-            "type": "text",
-            "frame": {
-                "x": 221,
-                "y": 534,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "87.6",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "066A197B-9836-46F7-8336-34560393F3EF",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "87.6",
-            "type": "text",
-            "frame": {
-                "x": 221,
-                "y": 716,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "87.6",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "2BFBE998-B9F4-405F-9A94-0C6461DCA90A",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "66.8",
-            "type": "text",
-            "frame": {
-                "x": 293,
-                "y": 352,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "66.8",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "29B41E26-CA65-4552-BF7E-33117AADC9B5",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "66.8",
-            "type": "text",
-            "frame": {
-                "x": 293,
-                "y": 534,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "66.8",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "2882130F-1FAB-44DA-A9E7-5F42C0CF54AC",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "66.8",
-            "type": "text",
-            "frame": {
-                "x": 293,
-                "y": 716,
-                "width": 25,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "66.8",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "706377DD-6808-4A94-B8DE-FF47F4CB89FC",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "小控件/icon_enter备份 23",
-            "type": "group",
-            "frame": {
-                "x": 325,
-                "y": 281,
-                "width": 20,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "FFE9C074-6296-43F2-BD4A-7A168EBB7E3B",
-                    "parentId": "706377DD-6808-4A94-B8DE-FF47F4CB89FC",
-                    "name": "矩形",
-                    "type": "rectangle",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 20,
-                        "height": 20
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": []
-                },
-                {
-                    "id": "32F1E25F-5AD3-4497-89EF-E83E834D7218",
-                    "parentId": "706377DD-6808-4A94-B8DE-FF47F4CB89FC",
-                    "name": "路径 6",
-                    "type": "shapePath",
-                    "frame": {
-                        "x": 8,
-                        "y": 6,
-                        "width": 4,
-                        "height": 8
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "border": {
-                        "width": 1,
-                        "color": "rgb(153, 153, 153)",
-                        "position": 0
-                    },
-                    "borderRadius": 0,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "id": "2B5C03D2-3A04-48F3-A497-9908566AD6A2",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "小控件/icon_enter备份 26",
-            "type": "group",
-            "frame": {
-                "x": 325,
-                "y": 463,
-                "width": 20,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "3C886A8F-A581-4F3A-8A81-D41BC5776E6C",
-                    "parentId": "2B5C03D2-3A04-48F3-A497-9908566AD6A2",
-                    "name": "矩形",
-                    "type": "rectangle",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 20,
-                        "height": 20
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": []
-                },
-                {
-                    "id": "C9712BBF-7BAA-4844-9DA0-B33B3C660120",
-                    "parentId": "2B5C03D2-3A04-48F3-A497-9908566AD6A2",
-                    "name": "路径 6",
-                    "type": "shapePath",
-                    "frame": {
-                        "x": 8,
-                        "y": 6,
-                        "width": 4,
-                        "height": 8
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "border": {
-                        "width": 1,
-                        "color": "rgb(153, 153, 153)",
-                        "position": 0
-                    },
-                    "borderRadius": 0,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "id": "82C91F98-4ACD-4F2C-BFF4-382553464C2D",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "小控件/icon_enter备份 27",
-            "type": "group",
-            "frame": {
-                "x": 325,
-                "y": 645,
-                "width": 20,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "A67A4693-BBE0-4146-930E-88245DB5FB66",
-                    "parentId": "82C91F98-4ACD-4F2C-BFF4-382553464C2D",
-                    "name": "矩形",
-                    "type": "rectangle",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 20,
-                        "height": 20
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": []
-                },
-                {
-                    "id": "2CFB0896-4328-447C-A24E-B7E89F5D9238",
-                    "parentId": "82C91F98-4ACD-4F2C-BFF4-382553464C2D",
-                    "name": "路径 6",
-                    "type": "shapePath",
-                    "frame": {
-                        "x": 8,
-                        "y": 6,
-                        "width": 4,
-                        "height": 8
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "border": {
-                        "width": 1,
-                        "color": "rgb(153, 153, 153)",
-                        "position": 0
-                    },
-                    "borderRadius": 0,
-                    "children": []
-                }
-            ]
-        },
-        {
-            "id": "9985FC36-9680-46F6-B70A-B853CEEB961B",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 34,
-                "y": 349,
-                "width": 306,
-                "height": 1
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "C960B9AF-1D31-4C3D-B821-3CBE0F191309",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 67",
-            "type": "rectangle",
-            "frame": {
-                "x": 34,
-                "y": 531,
-                "width": 306,
-                "height": 1
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "FA40747B-6B70-46CB-909C-E26DD1D31A1C",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 91",
-            "type": "rectangle",
-            "frame": {
-                "x": 34,
-                "y": 713,
-                "width": 306,
-                "height": 1
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "F26752D1-21AC-4987-BAE8-0FD743CB4CDD",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 90,
-                "y": 325,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "52F9E6B9-2152-4C5D-A560-A47F304E9A75",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 68",
-            "type": "rectangle",
-            "frame": {
-                "x": 90,
-                "y": 507,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "CE02C980-2C62-47B4-BBE9-BE51CBE2C421",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 108",
-            "type": "rectangle",
-            "frame": {
-                "x": 90,
-                "y": 689,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "5E65891B-E64A-4B0A-9F49-9E097C76E17E",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 3",
-            "type": "rectangle",
-            "frame": {
-                "x": 197,
-                "y": 325,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "E3855659-44BA-412F-A728-6D1704F22CB0",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 69",
-            "type": "rectangle",
-            "frame": {
-                "x": 197,
-                "y": 507,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "CCF48C49-B2A5-4F4B-A8C1-3D6BFA405003",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 109",
-            "type": "rectangle",
-            "frame": {
-                "x": 197,
-                "y": 689,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "79587E7F-0409-4A37-AAE5-27BC4E290C03",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 5",
-            "type": "rectangle",
-            "frame": {
-                "x": 270,
-                "y": 325,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "514161A8-3ABB-45A8-8DAF-E42FA5B84D43",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 86",
-            "type": "rectangle",
-            "frame": {
-                "x": 270,
-                "y": 507,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "A93B357C-E5C7-44D9-B7FC-692B0DF5C9C0",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 110",
-            "type": "rectangle",
-            "frame": {
-                "x": 270,
-                "y": 689,
-                "width": 1,
-                "height": 48
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(250, 205, 174)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "1A446D9A-2083-4FE7-92CB-E84368559E14",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 288,
-                "y": 237,
-                "width": 47,
-                "height": 21
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "border": {
-                "width": 1,
-                "color": "rgb(231, 231, 231)",
-                "position": 1
-            },
-            "borderRadius": 4,
-            "children": []
-        },
-        {
-            "id": "065BCDD9-C6D9-49E2-AB4A-DAEAD8E9AF03",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 6",
-            "type": "rectangle",
-            "frame": {
-                "x": 288,
-                "y": 419,
-                "width": 47,
-                "height": 21
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "border": {
-                "width": 1,
-                "color": "rgb(231, 231, 231)",
-                "position": 1
-            },
-            "borderRadius": 4,
-            "children": []
-        },
-        {
-            "id": "F3E8EE91-C002-443E-AD1A-5B4517D1475E",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "目标备份",
-            "type": "text",
-            "frame": {
-                "x": 256,
-                "y": 419,
-                "width": 28,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "目标",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 14,
-                "color": "rgb(255, 113, 42)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "A7A1FCA9-F6F8-4D61-B27C-9D8566BC9388",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "万备份",
-            "type": "text",
-            "frame": {
-                "x": 339,
-                "y": 419,
-                "width": 14,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 14,
-                "color": "rgb(255, 113, 42)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "38AEAFE5-AB63-4FE3-A37E-7F8163F60028",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 7",
-            "type": "rectangle",
-            "frame": {
-                "x": 288,
-                "y": 600,
-                "width": 47,
-                "height": 21
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "border": {
-                "width": 1,
-                "color": "rgb(231, 231, 231)",
-                "position": 1
-            },
-            "borderRadius": 4,
-            "children": []
-        },
-        {
-            "id": "6149B247-EB65-498C-A3B3-8448C6B6D624",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "目标备份 2",
-            "type": "text",
-            "frame": {
-                "x": 256,
-                "y": 600,
-                "width": 28,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "目标",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 14,
-                "color": "rgb(255, 113, 42)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "083FD493-2E36-40E1-B435-449CF3DB669E",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "万备份 2",
-            "type": "text",
-            "frame": {
-                "x": 339,
-                "y": 600,
-                "width": 14,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 14,
-                "color": "rgb(255, 113, 42)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "8C244BB7-08F7-4C5C-B0BF-D32EBA128F4D",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "目标",
-            "type": "text",
-            "frame": {
-                "x": 256,
-                "y": 237,
-                "width": 28,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "目标",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 14,
-                "color": "rgb(255, 113, 42)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "7EECE3C3-2894-4C66-9FB2-D6E1BDDC8E53",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "万",
-            "type": "text",
-            "frame": {
-                "x": 339,
-                "y": 237,
-                "width": 14,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "万",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 14,
-                "color": "rgb(255, 113, 42)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "150B46B8-EA14-4F5F-B2FC-729760EAD7BC",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "制定目标",
-            "type": "text",
-            "frame": {
-                "x": 23,
-                "y": 195,
-                "width": 56,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "制定目标",
-                "fontFamily": "PingFangSC-Medium",
-                "fontSize": 14,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "57743137-A5D6-4A69-8894-F9C3AB7379D6",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 17",
-            "type": "rectangle",
-            "frame": {
-                "x": 12,
-                "y": 199,
-                "width": 3,
-                "height": 12
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 113, 42)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "1CCD50C7-8BF7-4C9A-B83B-CED4D829A4C5",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "编组 3",
-            "type": "group",
-            "frame": {
-                "x": 280,
-                "y": 195,
-                "width": 79,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "CCAD2B28-9FB8-4179-8CC9-C4469D45B2A2",
-                    "parentId": "1CCD50C7-8BF7-4C9A-B83B-CED4D829A4C5",
-                    "name": "编组 3备份",
-                    "type": "group",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 20,
-                        "height": 20
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": [
-                        {
-                            "id": "117108D3-13B4-487B-B170-9B35F9C1E643",
-                            "parentId": "CCAD2B28-9FB8-4179-8CC9-C4469D45B2A2",
-                            "name": "矩形",
-                            "type": "rectangle",
-                            "frame": {
-                                "x": 0,
-                                "y": 0,
-                                "width": 20,
-                                "height": 20
-                            },
-                            "isVisible": true,
-                            "opacity": 1,
-                            "rotation": 0,
-                            "borderRadius": 0,
-                            "children": []
-                        },
-                        {
-                            "id": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                            "parentId": "CCAD2B28-9FB8-4179-8CC9-C4469D45B2A2",
-                            "name": "编组",
-                            "type": "group",
-                            "frame": {
-                                "x": 2,
-                                "y": 4,
-                                "width": 16,
-                                "height": 12
-                            },
-                            "isVisible": true,
-                            "opacity": 1,
-                            "rotation": 0,
-                            "borderRadius": 0,
-                            "children": [
-                                {
-                                    "id": "E3F8B8B0-1EBE-401B-B7C5-7092A21EBF6F",
-                                    "parentId": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                                    "name": "椭圆形",
-                                    "type": "oval",
-                                    "frame": {
-                                        "x": 2,
-                                        "y": 1,
-                                        "width": 6,
-                                        "height": 6
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "border": {
-                                        "width": 1,
-                                        "color": "rgb(255, 113, 42)",
-                                        "position": 1
-                                    },
-                                    "borderRadius": 0,
-                                    "children": []
-                                },
-                                {
-                                    "id": "EE39A278-12A7-4453-88FE-52308A7C1F1B",
-                                    "parentId": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                                    "name": "椭圆形备份",
-                                    "type": "oval",
-                                    "frame": {
-                                        "x": 8,
-                                        "y": 0,
-                                        "width": 6,
-                                        "height": 6
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "border": {
-                                        "width": 1,
-                                        "color": "rgb(255, 113, 42)",
-                                        "position": 1
-                                    },
-                                    "borderRadius": 0,
-                                    "children": []
-                                },
-                                {
-                                    "id": "287E9CB1-7F36-49BC-8668-95AC15E1257B",
-                                    "parentId": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 7,
-                                        "width": 9,
-                                        "height": 5
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "border": {
-                                        "width": 1,
-                                        "color": "rgb(255, 113, 42)",
-                                        "position": 0
-                                    },
-                                    "borderRadius": 0,
-                                    "children": []
-                                },
-                                {
-                                    "id": "F45FD1FF-CF68-47C6-91A9-CC2EDD62F6D5",
-                                    "parentId": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 9,
-                                        "y": 6,
-                                        "width": 8,
-                                        "height": 5
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "border": {
-                                        "width": 1,
-                                        "color": "rgb(255, 113, 42)",
-                                        "position": 0
-                                    },
-                                    "borderRadius": 0,
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "47ABEEF0-2272-42E8-AC04-4E0A70FF98D6",
-                    "parentId": "1CCD50C7-8BF7-4C9A-B83B-CED4D829A4C5",
-                    "name": "分组制定",
-                    "type": "text",
-                    "frame": {
-                        "x": 23,
-                        "y": 0,
-                        "width": 56,
-                        "height": 20
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "text": {
-                        "content": "分组制定",
-                        "fontFamily": "PingFangSC-Medium",
-                        "fontSize": 14,
-                        "color": "rgb(255, 113, 42)",
-                        "textAlign": "left",
-                        "letterSpacing": 0
-                    },
-                    "children": []
-                }
-            ]
-        },
-        {
-            "id": "B9F1D878-AA9A-4320-BCB7-FF5E7A629230",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "选项/未选中_已激活备份 13",
-            "type": "symbolInstance",
-            "frame": {
-                "x": 341,
-                "y": 764,
-                "width": 18,
-                "height": 18
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "FAC57D75-22EA-480B-8D89-A84E7FAD7FF9",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "姜梅梅备份 2",
-            "type": "text",
-            "frame": {
-                "x": 89,
-                "y": 751,
-                "width": 42,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "姜梅梅",
-                "fontFamily": "PingFangSC-Medium",
-                "fontSize": 14,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "lineHeight": 20,
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "91690945-3325-4F33-88CE-81BC6F4ECA10",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "编组备份 7",
-            "type": "group",
-            "frame": {
-                "x": 139,
-                "y": 751,
-                "width": 34,
-                "height": 18
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": [
-                {
-                    "id": "D5ADC54D-4507-4A5F-8A3D-2D82B0C6587E",
-                    "parentId": "91690945-3325-4F33-88CE-81BC6F4ECA10",
-                    "name": "矩形备份 2",
-                    "type": "rectangle",
-                    "frame": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 34,
-                        "height": 18
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "backgroundColor": "rgb(248, 248, 248)",
-                    "borderRadius": 4,
-                    "children": []
-                },
-                {
-                    "id": "B463C380-151E-497D-816D-A21C7A08B07F",
-                    "parentId": "91690945-3325-4F33-88CE-81BC6F4ECA10",
-                    "name": "资深备份",
-                    "type": "group",
-                    "frame": {
-                        "x": 5,
-                        "y": 4,
-                        "width": 23,
-                        "height": 11
-                    },
-                    "isVisible": true,
-                    "opacity": 1,
-                    "rotation": 0,
-                    "borderRadius": 0,
-                    "children": [
-                        {
-                            "id": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                            "parentId": "B463C380-151E-497D-816D-A21C7A08B07F",
-                            "name": "形状",
-                            "type": "shapeGroup",
-                            "frame": {
-                                "x": 0,
-                                "y": 0,
-                                "width": 11,
-                                "height": 11
-                            },
-                            "isVisible": true,
-                            "opacity": 1,
-                            "rotation": 0,
-                            "backgroundColor": "rgb(231, 156, 0)",
-                            "borderRadius": 0,
-                            "innerShadows": [],
-                            "children": [
-                                {
-                                    "id": "EECAEC5D-B946-45FD-A6D9-769CED28D708",
-                                    "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 1,
-                                        "y": 5,
-                                        "width": 9,
-                                        "height": 3
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "E6EBE273-E2C8-4E95-9BE7-280A8EDD4912",
-                                    "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 7,
-                                        "width": 11,
-                                        "height": 4
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "132F4C1A-38F0-4645-982A-37538B1CF06F",
-                                    "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 3,
-                                        "y": 2,
-                                        "width": 8,
-                                        "height": 3
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "D4D9C201-33C7-40D7-9BAC-0E5B2E83D981",
-                                    "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 3,
-                                        "y": 0,
-                                        "width": 8,
-                                        "height": 3
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "1036B166-217A-4A5F-8090-6C8AC6176694",
-                                    "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 2,
-                                        "width": 3,
-                                        "height": 3
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "703813D2-62B7-4215-9F8D-92DE209FB2CC",
-                                    "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 3,
-                                        "height": 2
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "0607361D-B58E-4435-902F-EC64A0541815",
-                            "parentId": "B463C380-151E-497D-816D-A21C7A08B07F",
-                            "name": "形状",
-                            "type": "shapeGroup",
-                            "frame": {
-                                "x": 12,
-                                "y": 0,
-                                "width": 11,
-                                "height": 11
-                            },
-                            "isVisible": true,
-                            "opacity": 1,
-                            "rotation": 0,
-                            "backgroundColor": "rgb(231, 156, 0)",
-                            "borderRadius": 0,
-                            "innerShadows": [],
-                            "children": [
-                                {
-                                    "id": "C340F466-3866-4243-BB50-F83AD8033C04",
-                                    "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 3,
-                                        "y": 4,
-                                        "width": 8,
-                                        "height": 7
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "5F47E12A-C028-44F7-BB87-129456C7800A",
-                                    "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 3,
-                                        "y": 0,
-                                        "width": 8,
-                                        "height": 4
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "ADB03500-A60F-4EBA-9C20-234AEFAF2979",
-                                    "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 6,
-                                        "width": 3,
-                                        "height": 5
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "784CD036-1553-410A-AF37-34F4F61A59C5",
-                                    "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 3,
-                                        "y": 2,
-                                        "width": 4,
-                                        "height": 2
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "52CAF177-A498-4FF6-BC0E-40A1C9751500",
-                                    "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 3,
-                                        "width": 2,
-                                        "height": 2
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                },
-                                {
-                                    "id": "3AF12910-BC27-4037-AA66-4F7025A28DC1",
-                                    "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                    "name": "路径",
-                                    "type": "shapePath",
-                                    "frame": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 2,
-                                        "height": 2
-                                    },
-                                    "isVisible": true,
-                                    "opacity": 1,
-                                    "rotation": 0,
-                                    "borderRadius": 0,
-                                    "innerShadows": [],
-                                    "children": []
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "1F7D247D-B7D9-4056-A143-FF7B006153E7",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 0,
-                "y": 72,
-                "width": 375,
-                "height": 113
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "backgroundColor": "rgb(255, 255, 255)",
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "6BAF2986-6CDD-46D5-B88A-5E582A26D7BD",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
-            "type": "rectangle",
-            "frame": {
-                "x": 16,
-                "y": 114,
-                "width": 164,
-                "height": 59
-            },
-            "isVisible": true,
-            "opacity": {
-                "s": 1,
-                "e": -1,
-                "c": [
-                    69999998807907,
-                    10000000000000
-                ]
-            },
-            "rotation": 0,
-            "background": "linear-gradient(rgb(255, 224, 219) 0%, rgb(253, 228, 191) \n  100%)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "529D4790-4452-4310-89AE-6B10A469E926",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形备份 4",
-            "type": "rectangle",
-            "frame": {
-                "x": 195,
-                "y": 114,
-                "width": 164,
-                "height": 59
-            },
-            "isVisible": true,
-            "opacity": 0.5,
-            "rotation": 0,
-            "background": "linear-gradient(rgb(219, 226, 255) 0%, rgb(192, 227, 245) \n  100%)",
-            "borderRadius": 8,
-            "children": []
-        },
-        {
-            "id": "E53F1A9E-5045-48C6-8732-035AFB338CF3",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "Status/white",
-            "type": "symbolInstance",
-            "frame": {
-                "x": 0,
-                "y": 0,
-                "width": 375,
-                "height": 24
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "children": []
-        },
-        {
-            "id": "4030C44E-49B2-419E-88D4-727E565898EE",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
+            "id": "3608EBBE-1737-469F-AC7E-03444A7E0C2F",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
             "name": "矩形",
             "type": "rectangle",
             "frame": {
@@ -3093,57 +122,32 @@
             "children": []
         },
         {
-            "id": "C3A70718-35EE-4F88-9DD8-ADFE52A67832",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "已勾选 0 人",
-            "type": "text",
-            "frame": {
-                "x": 16,
-                "y": 770,
-                "width": 74,
-                "height": 20
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "已勾选 0 人",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 14,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "118AF70F-6CCA-4628-A7C5-8BCE21567242",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "矩形",
+            "id": "C99EF6B2-E5D8-410F-91A2-3A8291F9677E",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "矩形备份 26",
             "type": "rectangle",
             "frame": {
-                "x": 243,
+                "x": 27,
                 "y": 760,
-                "width": 120,
+                "width": 322,
                 "height": 40
             },
             "isVisible": true,
-            "opacity": 0.5,
+            "opacity": 1,
             "rotation": 0,
             "backgroundColor": "rgb(255, 113, 42)",
             "borderRadius": 22,
             "children": []
         },
         {
-            "id": "6AA31345-04CE-4AD9-A6AF-0DD11302412A",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "录入目标",
+            "id": "17EDD8BB-296F-4348-ACA7-D645B4283F4B",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "确认",
             "type": "text",
             "frame": {
-                "x": 271,
+                "x": 172,
                 "y": 769,
-                "width": 64,
+                "width": 32,
                 "height": 22
             },
             "isVisible": true,
@@ -3151,7 +155,7 @@
             "rotation": 0,
             "borderRadius": 0,
             "text": {
-                "content": "录入目标",
+                "content": "确认",
                 "fontFamily": "PingFangSC-Semibold",
                 "fontSize": 16,
                 "color": "rgb(255, 255, 255)",
@@ -3161,74 +165,59 @@
             "children": []
         },
         {
-            "id": "ED460EBB-A07D-40F1-BD69-79901FD816A7",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "营业部KPI目标",
-            "type": "text",
-            "frame": {
-                "x": 59,
-                "y": 123,
-                "width": 79,
-                "height": 17
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "营业部KPI目标",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "E6598512-21B4-4B6B-AAB7-6A72C73EE196",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "分配目标",
-            "type": "text",
-            "frame": {
-                "x": 253,
-                "y": 123,
-                "width": 48,
-                "height": 17
-            },
-            "isVisible": true,
-            "opacity": 1,
-            "rotation": 0,
-            "borderRadius": 0,
-            "text": {
-                "content": "分配目标",
-                "fontFamily": "PingFangSC-Regular",
-                "fontSize": 12,
-                "color": "rgb(51, 51, 51)",
-                "textAlign": "left",
-                "letterSpacing": 0
-            },
-            "children": []
-        },
-        {
-            "id": "1CA71C17-7964-46AC-A534-B8E008840176",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "2025-11",
-            "type": "text",
+            "id": "906ACFDC-B064-47CA-A1C2-4AE4C9585593",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "矩形",
+            "type": "rectangle",
             "frame": {
                 "x": 16,
-                "y": 82,
-                "width": 62,
-                "height": 22
+                "y": 84,
+                "width": 343,
+                "height": 204
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "borderRadius": 8,
+            "children": []
+        },
+        {
+            "id": "5F871EA4-44D7-4815-A4E3-EF979B3D7052",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "矩形",
+            "type": "rectangle",
+            "frame": {
+                "x": 28,
+                "y": 134,
+                "width": 319,
+                "height": 72
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "children": []
+        },
+        {
+            "id": "ACC8BB29-A02E-4E5E-BF2C-23387395BA25",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "小组成员",
+            "type": "text",
+            "frame": {
+                "x": 28,
+                "y": 146,
+                "width": 56,
+                "height": 20
             },
             "isVisible": true,
             "opacity": 1,
             "rotation": 0,
             "borderRadius": 0,
             "text": {
-                "content": "2025-11",
-                "fontFamily": "PingFangSC-Semibold",
-                "fontSize": 16,
+                "content": "小组成员",
+                "fontFamily": "PingFangSC-Regular",
+                "fontSize": 14,
                 "color": "rgb(51, 51, 51)",
                 "textAlign": "left",
                 "letterSpacing": 0
@@ -3236,24 +225,74 @@
             "children": []
         },
         {
-            "id": "67E70D37-4488-4B7C-BA0D-5259DDB8D0C1",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "0万",
+            "id": "3FEAA358-661E-457D-88F7-E62EF979CEA9",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "3人：左小西、苏苏、张科",
             "type": "text",
             "frame": {
-                "x": 264,
-                "y": 143,
-                "width": 26,
-                "height": 22
+                "x": 28,
+                "y": 174,
+                "width": 163,
+                "height": 20
             },
             "isVisible": true,
             "opacity": 1,
             "rotation": 0,
             "borderRadius": 0,
             "text": {
-                "content": "0万",
-                "fontFamily": "PingFangSC-Semibold",
-                "fontSize": 16,
+                "content": "3人：左小西、苏苏、张科",
+                "fontFamily": "PingFangSC-Regular",
+                "fontSize": 14,
+                "color": "rgb(51, 51, 51)",
+                "textAlign": "left",
+                "letterSpacing": 0
+            },
+            "children": []
+        },
+        {
+            "id": "91A91890-30CE-4A21-9630-45B5BA218EB4",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "1人：范范",
+            "type": "text",
+            "frame": {
+                "x": 28,
+                "y": 252,
+                "width": 62,
+                "height": 20
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "text": {
+                "content": "1人：范范",
+                "fontFamily": "PingFangSC-Regular",
+                "fontSize": 14,
+                "color": "rgb(51, 51, 51)",
+                "textAlign": "left",
+                "letterSpacing": 0
+            },
+            "children": []
+        },
+        {
+            "id": "135259D8-D06F-4008-946B-72CFCAC0589A",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "选择",
+            "type": "text",
+            "frame": {
+                "x": 319,
+                "y": 146,
+                "width": 28,
+                "height": 20
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "text": {
+                "content": "选择",
+                "fontFamily": "PingFangSC-Medium",
+                "fontSize": 14,
                 "color": "rgb(255, 113, 42)",
                 "textAlign": "left",
                 "letterSpacing": 0
@@ -3261,28 +300,233 @@
             "children": []
         },
         {
-            "id": "503FCBD9-7765-4E6B-BF99-5DC6702492DF",
-            "parentId": "B835771E-49F9-490A-A377-A85CF98727E8",
-            "name": "1,858.5万",
+            "id": "9EE7EE00-A7EA-4F47-95D1-692D2A4AF0A1",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "矩形备份 2",
+            "type": "rectangle",
+            "frame": {
+                "x": 28,
+                "y": 208,
+                "width": 319,
+                "height": 52
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "children": []
+        },
+        {
+            "id": "68FEF82A-1FE1-4E60-A6AA-78826B13E665",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "矩形备份",
+            "type": "rectangle",
+            "frame": {
+                "x": 16,
+                "y": 300,
+                "width": 343,
+                "height": 45
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "backgroundColor": "rgb(255, 255, 255)",
+            "borderRadius": 8,
+            "children": []
+        },
+        {
+            "id": "7865FDBE-6FB0-4957-8A1A-F4F905E1209D",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "新增小组",
             "type": "text",
             "frame": {
-                "x": 64,
-                "y": 143,
-                "width": 70,
-                "height": 22
+                "x": 160,
+                "y": 313,
+                "width": 56,
+                "height": 20
             },
             "isVisible": true,
             "opacity": 1,
             "rotation": 0,
             "borderRadius": 0,
             "text": {
-                "content": "1,858.5万",
-                "fontFamily": "PingFangSC-Semibold",
-                "fontSize": 16,
+                "content": "新增小组",
+                "fontFamily": "PingFangSC-Medium",
+                "fontSize": 14,
+                "color": "rgb(255, 113, 42)",
+                "textAlign": "left",
+                "letterSpacing": 0
+            },
+            "children": []
+        },
+        {
+            "id": "10D5CFB1-6AF9-4F79-B211-E693FD8E413C",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "一组",
+            "type": "text",
+            "frame": {
+                "x": 28,
+                "y": 100,
+                "width": 28,
+                "height": 20
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "text": {
+                "content": "一组",
+                "fontFamily": "PingFangSC-Medium",
+                "fontSize": 14,
                 "color": "rgb(51, 51, 51)",
                 "textAlign": "left",
                 "letterSpacing": 0
             },
+            "children": []
+        },
+        {
+            "id": "FAB1DB01-9CD1-4C04-A6C0-0D62212CBCC4",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "团队长",
+            "type": "text",
+            "frame": {
+                "x": 28,
+                "y": 224,
+                "width": 42,
+                "height": 20
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "text": {
+                "content": "团队长",
+                "fontFamily": "PingFangSC-Regular",
+                "fontSize": 14,
+                "color": "rgb(51, 51, 51)",
+                "textAlign": "left",
+                "letterSpacing": 0
+            },
+            "children": []
+        },
+        {
+            "id": "BF64EB23-72D0-4A6C-B529-CBE81E66DAB9",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "选择备份",
+            "type": "text",
+            "frame": {
+                "x": 319,
+                "y": 224,
+                "width": 28,
+                "height": 20
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "text": {
+                "content": "选择",
+                "fontFamily": "PingFangSC-Medium",
+                "fontSize": 14,
+                "color": "rgb(255, 113, 42)",
+                "textAlign": "left",
+                "letterSpacing": 0
+            },
+            "children": []
+        },
+        {
+            "id": "B272F8CB-7FE1-40DE-A249-438CC6397C4A",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "Status/white",
+            "type": "symbolInstance",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 24
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "children": []
+        },
+        {
+            "id": "7E7167CB-5869-4686-965A-1D319ECE0C17",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "路径 29备份 8",
+            "type": "shapePath",
+            "frame": {
+                "x": 28,
+                "y": 133,
+                "width": 319,
+                "height": 1
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "border": {
+                "width": 1,
+                "color": "rgb(240, 240, 240)",
+                "position": 0
+            },
+            "borderRadius": 0,
+            "children": []
+        },
+        {
+            "id": "C6E30FA3-B8D8-4157-B4EF-56CD1D4E1E31",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "路径 29备份 9",
+            "type": "shapePath",
+            "frame": {
+                "x": 28,
+                "y": 207,
+                "width": 319,
+                "height": 1
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "border": {
+                "width": 1,
+                "color": "rgb(240, 240, 240)",
+                "position": 0
+            },
+            "borderRadius": 0,
+            "children": []
+        },
+        {
+            "id": "5995F401-6D3E-494B-8EA5-1AD092EE0A3B",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "icon-编辑",
+            "type": "symbolInstance",
+            "frame": {
+                "x": 64,
+                "y": 102,
+                "width": 16,
+                "height": 16
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
+            "children": []
+        },
+        {
+            "id": "E4BDE528-A8C1-47B4-832C-8A008BBCCE21",
+            "parentId": "8B3E5E6C-E322-42BB-9EC2-C232F3471D2D",
+            "name": "icon-删除备份",
+            "type": "symbolInstance",
+            "frame": {
+                "x": 331,
+                "y": 100,
+                "width": 16,
+                "height": 16
+            },
+            "isVisible": true,
+            "opacity": 1,
+            "rotation": 0,
+            "borderRadius": 0,
             "children": []
         }
     ]
