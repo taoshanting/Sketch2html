@@ -1141,6 +1141,10 @@ export class JSONTransformer {
             if (componentName === 'Text') {
                 delete optimized.width;
             }
+            // 如果父元素有 alignItems: center，移除 marginTop
+            if (layoutInfo.alignItems === 'center') {
+                delete optimized.marginTop;
+            }
         } else if (layoutInfo.type === 'row') {
             // 水平排列：移除 marginTop
             delete optimized.marginTop;
@@ -1478,8 +1482,13 @@ export class JSONTransformer {
         let children;
         if (needsSpaceBetween) {
             // 左侧可能需要分组
-            const leftGroup = this.createLeftGroup(left, parentFrame);
-            children = leftGroup ? [leftGroup, ...right] : right;
+            if (left.length > 1) {
+                const leftGroup = this.createLeftGroup(left, parentFrame);
+                children = leftGroup ? [leftGroup, ...right] : [...left, ...right];
+            } else {
+                // 左侧只有一个元素，直接使用
+                children = [...left, ...right];
+            }
         } else {
             // 按 X 坐标排序
             children = [...rowElements].sort((a, b) => (a.frame?.x || 0) - (b.frame?.x || 0));
@@ -1504,10 +1513,10 @@ export class JSONTransformer {
     /**
      * 检测紧密相邻的元素组（按 X 间距分组）
      * @param {Array} rowElements - 同一行的元素数组
-     * @param {number} gapThreshold - 间距阈值（默认 30px）
+     * @param {number} gapThreshold - 间距阈值（默认 150px）
      * @returns {Array} 紧密相邻的元素组数组
      */
-    detectCloseGroups(rowElements, gapThreshold = 30) {
+    detectCloseGroups(rowElements, gapThreshold = 150) {
         if (!rowElements || rowElements.length === 0) return [];
         if (rowElements.length === 1) return [rowElements];
 
@@ -1591,6 +1600,12 @@ export class JSONTransformer {
     reorganizeHierarchy(children, parentFrame = null) {
         if (!children || children.length === 0) return [];
 
+        // 如果 children 中已经包含 Row 包装器，说明已经被重组过，直接返回
+        const hasRowWrapper = children.some(c => c._isRowWrapper);
+        if (hasRowWrapper) {
+            return children;
+        }
+
         // 按面积从大到小排序（大的可能是容器）
         const sorted = [...children].sort((a, b) => {
             const areaA = (a.frame?.width || 0) * (a.frame?.height || 0);
@@ -1644,9 +1659,10 @@ export class JSONTransformer {
      * @param {Object} parentFrame - 父元素 frame
      * @param {number} prevBottom - 前一个兄弟元素的底部
      * @param {number} prevRight - 前一个兄弟元素的右边缘（用于 row 布局）
+     * @param {Object} layoutInfo - 父元素的布局信息
      * @returns {Object} 低代码格式元素
      */
-    transformRowWrapper(rowWrapper, parentId = null, parentFrame = null, prevBottom = 0, prevRight = null) {
+    transformRowWrapper(rowWrapper, parentId = null, parentFrame = null, prevBottom = 0, prevRight = null, layoutInfo = null) {
         const className = this.generateClassName('Div');
 
         // 计算 Row 容器的样式
@@ -1671,7 +1687,10 @@ export class JSONTransformer {
                     : rowWrapper.frame.y - parentFrame.y;
 
                 if (marginLeft > 0) style.marginLeft = `${marginLeft}px`;
-                if (marginTop > 0) style.marginTop = `${marginTop}px`;
+                // 如果父元素有 alignItems: center，不添加 marginTop
+                if (marginTop > 0 && !(layoutInfo && layoutInfo.alignItems === 'center')) {
+                    style.marginTop = `${marginTop}px`;
+                }
             }
         }
 
@@ -1756,7 +1775,7 @@ export class JSONTransformer {
     transformElement(layer, parentId = null, parentFrame = null, prevBottom = 0, layoutInfo = null, prevRight = null) {
         // 处理 Row 包装容器
         if (layer._isRowWrapper) {
-            return this.transformRowWrapper(layer, parentId, parentFrame, prevBottom, prevRight);
+            return this.transformRowWrapper(layer, parentId, parentFrame, prevBottom, prevRight, layoutInfo);
         }
 
         const componentName = this.detectComponentName(layer.type);
