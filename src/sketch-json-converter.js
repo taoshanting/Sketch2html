@@ -771,19 +771,77 @@ export class JSONTransformer {
     }
 
     /**
+     * 检测 group 是否应该作为图片处理
+     * @param {Object} layer - 图层对象
+     * @returns {boolean} 是否应作为图片
+     */
+    isGroupAsImage(layer) {
+        if (layer.type !== 'group') return false;
+
+        // 检查尺寸：小于等于 48px 的 group 更可能是图标
+        const width = layer.frame?.width || 0;
+        const height = layer.frame?.height || 0;
+        if (width > 48 || height > 48) return false;
+
+        // 检查是否有子元素
+        if (!layer.children || layer.children.length === 0) return false;
+
+        // 图形基元类型
+        const graphicTypes = ['oval', 'shapePath', 'shapeGroup', 'rectangle', 'path', 'polygon', 'star', 'triangle'];
+
+        // 递归检查是否包含文本或非图形元素
+        const hasTextOrComplex = (children) => {
+            for (const child of children) {
+                // 如果包含文本，不作为图片处理
+                if (child.type === 'text') return true;
+                // 如果包含 symbolInstance，不作为图片处理（已经是图片了）
+                if (child.type === 'symbolInstance') return true;
+
+                // 递归检查嵌套的 group
+                if (child.type === 'group' && child.children) {
+                    if (hasTextOrComplex(child.children)) return true;
+                }
+            }
+            return false;
+        };
+
+        // 如果包含文本或复杂元素，不作为图片
+        if (hasTextOrComplex(layer.children)) return false;
+
+        // 检查是否主要由图形基元组成
+        const hasGraphicPrimitives = (children) => {
+            for (const child of children) {
+                if (graphicTypes.includes(child.type)) return true;
+                if (child.type === 'group' && child.children) {
+                    if (hasGraphicPrimitives(child.children)) return true;
+                }
+            }
+            return false;
+        };
+
+        return hasGraphicPrimitives(layer.children);
+    }
+
+    /**
      * 根据 type 检测 componentName
      * @param {string} type - 元素类型
+     * @param {Object} layer - 完整的图层对象（可选，用于 group 检测）
      * @returns {string} componentName
      */
-    detectComponentName(type) {
+    detectComponentName(type, layer = null) {
         switch (type) {
             case 'text':
                 return 'Text';
             case 'symbolInstance':
                 return 'Image';
+            case 'group':
+                // 检查 group 是否应作为图片处理
+                if (layer && this.isGroupAsImage(layer)) {
+                    return 'Image';
+                }
+                return 'Div';
             case 'rectangle':
             case 'artboard':
-            case 'group':
             default:
                 return 'Div';
         }
@@ -1327,20 +1385,20 @@ export class JSONTransformer {
 
         const rows = [];
         let currentRow = [sorted[0]];
-        let currentRowY = sorted[0].frame?.y || 0;
 
         for (let i = 1; i < sorted.length; i++) {
+            const prev = sorted[i - 1];
             const element = sorted[i];
+            const prevY = prev.frame?.y || 0;
             const elementY = element.frame?.y || 0;
 
-            // 如果 Y 坐标差值小于阈值，归为同一行
-            if (Math.abs(elementY - currentRowY) <= threshold) {
+            // 如果与前一个元素的 Y 坐标差值小于阈值，归为同一行
+            if (Math.abs(elementY - prevY) <= threshold) {
                 currentRow.push(element);
             } else {
                 // 开始新的一行
                 rows.push(currentRow);
                 currentRow = [element];
-                currentRowY = elementY;
             }
         }
 
@@ -1366,19 +1424,45 @@ export class JSONTransformer {
         // 按 X 坐标排序
         const sorted = [...rowElements].sort((a, b) => (a.frame?.x || 0) - (b.frame?.x || 0));
 
+        // 先检测紧邻元素组（间距 ≤ 10px 的元素视为一个整体）
+        const adjacentGroups = [];
+        let currentGroup = [sorted[0]];
+
+        for (let i = 1; i < sorted.length; i++) {
+            const prev = sorted[i - 1];
+            const curr = sorted[i];
+            const prevRight = (prev.frame?.x || 0) + (prev.frame?.width || 0);
+            const currLeft = curr.frame?.x || 0;
+            const gap = currLeft - prevRight;
+
+            if (gap <= 10) {
+                // 紧邻，加入当前组
+                currentGroup.push(curr);
+            } else {
+                // 不紧邻，开始新组
+                adjacentGroups.push(currentGroup);
+                currentGroup = [curr];
+            }
+        }
+        adjacentGroups.push(currentGroup);
+
         // 计算父元素中心线
         const centerX = parentFrame.x + parentFrame.width / 2;
 
         const left = [];
         const right = [];
 
-        for (const element of sorted) {
-            const elementCenterX = (element.frame?.x || 0) + (element.frame?.width || 0) / 2;
+        // 对每个紧邻组，计算组的中心点来决定归属
+        for (const group of adjacentGroups) {
+            // 计算组的包围盒中心
+            const minX = Math.min(...group.map(e => e.frame?.x || 0));
+            const maxX = Math.max(...group.map(e => (e.frame?.x || 0) + (e.frame?.width || 0)));
+            const groupCenterX = (minX + maxX) / 2;
 
-            if (elementCenterX < centerX) {
-                left.push(element);
+            if (groupCenterX < centerX) {
+                left.push(...group);
             } else {
-                right.push(element);
+                right.push(...group);
             }
         }
 
@@ -1778,9 +1862,12 @@ export class JSONTransformer {
             return this.transformRowWrapper(layer, parentId, parentFrame, prevBottom, prevRight, layoutInfo);
         }
 
-        const componentName = this.detectComponentName(layer.type);
+        const componentName = this.detectComponentName(layer.type, layer);
         const className = this.generateClassName(componentName);
         let style = this.buildPropsStyle(layer, parentFrame, prevBottom);
+
+        // 检查是否是 group 作为图片处理
+        const isGroupImage = layer.type === 'group' && componentName === 'Image';
 
         // 对于 row 布局，使用前一个兄弟元素的右边缘计算 marginLeft
         if (layoutInfo && layoutInfo.flexDirection === 'row' && prevRight !== null && layer.frame) {
@@ -1823,8 +1910,9 @@ export class JSONTransformer {
         }
 
         // 添加图片占位
-        if (layer.type === 'symbolInstance') {
+        if (layer.type === 'symbolInstance' || isGroupImage) {
             element.props.src = '';
+            element.props.alt = layer.name || '';
         }
 
         // 添加父级引用
@@ -1832,13 +1920,13 @@ export class JSONTransformer {
             element.parentId = parentId;
         }
 
-        // 标记叶子节点
-        element.isLeaf = !layer.children || layer.children.length === 0;
+        // 标记叶子节点（group 作为图片时视为叶子节点）
+        element.isLeaf = isGroupImage || !layer.children || layer.children.length === 0;
         element.isHover = false;
         element.isClick = false;
 
-        // 处理子元素
-        if (layer.children && layer.children.length > 0) {
+        // 处理子元素（group 作为图片时跳过 children 处理）
+        if (!isGroupImage && layer.children && layer.children.length > 0) {
             // 先重组层级（传递父元素 frame 用于行分组）
             const reorganized = this.reorganizeHierarchy(layer.children, layer.frame);
 
@@ -1864,9 +1952,21 @@ export class JSONTransformer {
                 }
             }
 
+            // 对于 row 布局，按 X 坐标排序 children
+            let sortedChildren = reorganized;
+            if (childLayoutInfo.flexDirection === 'row') {
+                sortedChildren = [...reorganized].sort((a, b) => (a.frame?.x || 0) - (b.frame?.x || 0));
+            }
+
             let currentBottom = layer.frame ? layer.frame.y : 0;
             let currentRight = layer.frame ? layer.frame.x : 0; // 跟踪前一个兄弟的右边缘
-            element.children = reorganized.map(child => {
+            const childCount = sortedChildren.length;
+
+            element.children = sortedChildren.map((child, index) => {
+                // 对于 row 布局，计算第一个元素的 margin-left 和最后一个元素的 margin-right
+                const isFirstChild = index === 0;
+                const isLastChild = index === childCount - 1;
+
                 const transformed = this.transformElement(
                     child,
                     layer.id,
@@ -1875,6 +1975,25 @@ export class JSONTransformer {
                     childLayoutInfo,  // 传递布局信息给子元素
                     childLayoutInfo.flexDirection === 'row' ? currentRight : null  // row 布局时传递 prevRight
                 );
+
+                // 对于 row 布局的第一个元素，添加 margin-left
+                if (childLayoutInfo.flexDirection === 'row' && isFirstChild && layer.frame && child.frame) {
+                    const marginLeft = child.frame.x - layer.frame.x;
+                    if (marginLeft > 0) {
+                        transformed.props.style.marginLeft = `${marginLeft}px`;
+                    }
+                }
+
+                // 对于 row 布局的最后一个元素，添加 margin-right
+                if (childLayoutInfo.flexDirection === 'row' && isLastChild && layer.frame && child.frame) {
+                    const containerRight = layer.frame.x + layer.frame.width;
+                    const elementRight = child.frame.x + child.frame.width;
+                    const marginRight = containerRight - elementRight;
+                    if (marginRight > 0) {
+                        transformed.props.style.marginRight = `${marginRight}px`;
+                    }
+                }
+
                 currentBottom = (child.frame?.y || 0) + (child.frame?.height || 0);
                 currentRight = (child.frame?.x || 0) + (child.frame?.width || 0);
                 return transformed;

@@ -76,7 +76,8 @@
               "flexDirection": "column"
             },
             "className": "imageView_1",
-            "src": ""
+            "src": "",
+            "alt": "Status/white"
           },
           "rect": {
             "x": 0,
@@ -100,7 +101,7 @@
           "children": []
         },
         {
-          "id": "row_xvle05n6f",
+          "id": "row_hbozzgnq6",
           "name": "Row",
           "props": {
             "style": {
@@ -148,7 +149,8 @@
                   "flexDirection": "column"
                 },
                 "className": "imageView_2",
-                "src": ""
+                "src": "",
+                "alt": "nav_icon_back"
               },
               "rect": {
                 "x": 16,
@@ -165,7 +167,7 @@
               "lowcodeType": "KunBasicContainer",
               "ui_library_type": "",
               "ui_component_type": "",
-              "parentId": "row_xvle05n6f",
+              "parentId": "row_hbozzgnq6",
               "isLeaf": true,
               "isHover": false,
               "isClick": false,
@@ -205,7 +207,7 @@
               "lowcodeType": "KunBasicContainer",
               "ui_library_type": "",
               "ui_component_type": "",
-              "parentId": "row_xvle05n6f",
+              "parentId": "row_hbozzgnq6",
               "isLeaf": true,
               "isHover": false,
               "isClick": false,
@@ -328,7 +330,7 @@
               "children": []
             },
             {
-              "id": "row_k58jpcodf",
+              "id": "row_t3m6aamfe",
               "name": "Row",
               "props": {
                 "style": {
@@ -396,7 +398,7 @@
                   "lowcodeType": "KunBasicContainer",
                   "ui_library_type": "",
                   "ui_component_type": "",
-                  "parentId": "row_k58jpcodf",
+                  "parentId": "row_t3m6aamfe",
                   "isLeaf": false,
                   "isHover": false,
                   "isClick": false,
@@ -514,7 +516,7 @@
                   "lowcodeType": "KunBasicContainer",
                   "ui_library_type": "",
                   "ui_component_type": "",
-                  "parentId": "row_k58jpcodf",
+                  "parentId": "row_t3m6aamfe",
                   "isLeaf": false,
                   "isHover": false,
                   "isClick": false,
@@ -611,7 +613,7 @@
           ]
         },
         {
-          "id": "row_20df41ck6",
+          "id": "row_58cv0pix7",
           "name": "Row",
           "props": {
             "style": {
@@ -676,7 +678,7 @@
               "lowcodeType": "KunBasicContainer",
               "ui_library_type": "",
               "ui_component_type": "",
-              "parentId": "row_20df41ck6",
+              "parentId": "row_58cv0pix7",
               "isLeaf": true,
               "isHover": false,
               "isClick": false,
@@ -718,7 +720,7 @@
               "lowcodeType": "KunBasicContainer",
               "ui_library_type": "",
               "ui_component_type": "",
-              "parentId": "row_20df41ck6",
+              "parentId": "row_58cv0pix7",
               "isLeaf": true,
               "isHover": false,
               "isClick": false,
@@ -761,7 +763,7 @@
           "isClick": false,
           "children": [
             {
-              "id": "row_u3e4uvcvz",
+              "id": "row_r4gturac0",
               "name": "Row",
               "props": {
                 "style": {
@@ -803,11 +805,11 @@
                       "opacity": 1,
                       "width": "20px",
                       "height": "20px",
-                      "flexDirection": "column",
-                      "alignItems": "center",
-                      "justifyContent": "center"
+                      "flexDirection": "column"
                     },
-                    "className": "view_13"
+                    "className": "imageView_3",
+                    "src": "",
+                    "alt": "编组 3备份"
                   },
                   "rect": {
                     "x": 0,
@@ -815,7 +817,7 @@
                     "width": 20,
                     "height": 20
                   },
-                  "componentName": "Div",
+                  "componentName": "Image",
                   "intelligent": {
                     "layout_opt": {},
                     "is_need_detection": true
@@ -824,299 +826,11 @@
                   "lowcodeType": "KunBasicContainer",
                   "ui_library_type": "",
                   "ui_component_type": "",
-                  "parentId": "row_u3e4uvcvz",
-                  "isLeaf": false,
+                  "parentId": "row_r4gturac0",
+                  "isLeaf": true,
                   "isHover": false,
                   "isClick": false,
-                  "children": [
-                    {
-                      "id": "117108D3-13B4-487B-B170-9B35F9C1E643",
-                      "name": "矩形",
-                      "props": {
-                        "style": {
-                          "display": "flex",
-                          "opacity": 1,
-                          "width": "20px",
-                          "height": "20px",
-                          "flexDirection": "column",
-                          "alignItems": "center",
-                          "justifyContent": "center"
-                        },
-                        "className": "view_14"
-                      },
-                      "rect": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 20,
-                        "height": 20
-                      },
-                      "componentName": "Div",
-                      "intelligent": {
-                        "layout_opt": {},
-                        "is_need_detection": true
-                      },
-                      "isInteractive": false,
-                      "lowcodeType": "KunBasicContainer",
-                      "ui_library_type": "",
-                      "ui_component_type": "",
-                      "parentId": "CCAD2B28-9FB8-4179-8CC9-C4469D45B2A2",
-                      "isLeaf": false,
-                      "isHover": false,
-                      "isClick": false,
-                      "children": [
-                        {
-                          "id": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                          "name": "编组",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "width": "16px",
-                              "height": "12px",
-                              "flexDirection": "row",
-                              "justifyContent": "space-between"
-                            },
-                            "className": "view_15"
-                          },
-                          "rect": {
-                            "x": 2,
-                            "y": 4,
-                            "width": 16,
-                            "height": 12
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": true
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "117108D3-13B4-487B-B170-9B35F9C1E643",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "row_5o0wn2ji3",
-                              "name": "Row",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "flexDirection": "row",
-                                  "alignItems": "center",
-                                  "justifyContent": "space-between",
-                                  "width": "12px",
-                                  "height": "7px"
-                                },
-                                "className": "view_16"
-                              },
-                              "rect": {
-                                "x": 2,
-                                "y": 0,
-                                "width": 12,
-                                "height": 7
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                              "isLeaf": false,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": [
-                                {
-                                  "id": "E3F8B8B0-1EBE-401B-B7C5-7092A21EBF6F",
-                                  "name": "椭圆形",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "6px",
-                                      "height": "6px",
-                                      "border": "1px solid rgba(255,113,42,1)",
-                                      "flexDirection": "column"
-                                    },
-                                    "className": "view_17"
-                                  },
-                                  "rect": {
-                                    "x": 2,
-                                    "y": 1,
-                                    "width": 6,
-                                    "height": 6
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "row_5o0wn2ji3",
-                                  "isLeaf": true,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": []
-                                },
-                                {
-                                  "id": "EE39A278-12A7-4453-88FE-52308A7C1F1B",
-                                  "name": "椭圆形备份",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "6px",
-                                      "height": "6px",
-                                      "border": "1px solid rgba(255,113,42,1)",
-                                      "flexDirection": "column"
-                                    },
-                                    "className": "view_18"
-                                  },
-                                  "rect": {
-                                    "x": 8,
-                                    "y": 0,
-                                    "width": 6,
-                                    "height": 6
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "row_5o0wn2ji3",
-                                  "isLeaf": true,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "id": "row_tjnilueiw",
-                              "name": "Row",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "flexDirection": "row",
-                                  "alignItems": "center",
-                                  "justifyContent": "space-between",
-                                  "width": "17px",
-                                  "height": "6px"
-                                },
-                                "className": "view_19"
-                              },
-                              "rect": {
-                                "x": 0,
-                                "y": 6,
-                                "width": 17,
-                                "height": 6
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "5B8D70A1-0DAE-4080-97D6-31E5CC0697D1",
-                              "isLeaf": false,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": [
-                                {
-                                  "id": "287E9CB1-7F36-49BC-8668-95AC15E1257B",
-                                  "name": "路径",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "9px",
-                                      "height": "5px",
-                                      "border": "1px solid rgba(255,113,42,1)",
-                                      "flexDirection": "column"
-                                    },
-                                    "className": "view_20"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 7,
-                                    "width": 9,
-                                    "height": 5
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "row_tjnilueiw",
-                                  "isLeaf": true,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": []
-                                },
-                                {
-                                  "id": "F45FD1FF-CF68-47C6-91A9-CC2EDD62F6D5",
-                                  "name": "路径",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "8px",
-                                      "height": "5px",
-                                      "border": "1px solid rgba(255,113,42,1)",
-                                      "flexDirection": "column"
-                                    },
-                                    "className": "view_21"
-                                  },
-                                  "rect": {
-                                    "x": 9,
-                                    "y": 6,
-                                    "width": 8,
-                                    "height": 5
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "row_tjnilueiw",
-                                  "isLeaf": true,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                  "children": []
                 },
                 {
                   "id": "47ABEEF0-2272-42E8-AC04-4E0A70FF98D6",
@@ -1154,7 +868,7 @@
                   "lowcodeType": "KunBasicContainer",
                   "ui_library_type": "",
                   "ui_component_type": "",
-                  "parentId": "row_u3e4uvcvz",
+                  "parentId": "row_r4gturac0",
                   "isLeaf": true,
                   "isHover": false,
                   "isClick": false,
@@ -1181,7 +895,7 @@
               "alignItems": "center",
               "gap": "1px"
             },
-            "className": "view_22"
+            "className": "view_13"
           },
           "rect": {
             "x": 10,
@@ -1217,7 +931,7 @@
                   "alignItems": "center",
                   "justifyContent": "center"
                 },
-                "className": "view_23"
+                "className": "view_14"
               },
               "rect": {
                 "x": 22,
@@ -1240,7 +954,7 @@
               "isClick": false,
               "children": [
                 {
-                  "id": "row_qdx5gegkd",
+                  "id": "row_y0i9w9ymb",
                   "name": "Row",
                   "props": {
                     "style": {
@@ -1253,7 +967,7 @@
                       "height": "21px",
                       "marginLeft": "2px"
                     },
-                    "className": "view_24"
+                    "className": "view_15"
                   },
                   "rect": {
                     "x": 24,
@@ -1276,7 +990,7 @@
                   "isClick": false,
                   "children": [
                     {
-                      "id": "row_1pwc357rd",
+                      "id": "row_gshdz3fki",
                       "name": "LeftGroup",
                       "props": {
                         "style": {
@@ -1288,7 +1002,7 @@
                           "width": "184px",
                           "height": "21px"
                         },
-                        "className": "view_25"
+                        "className": "view_16"
                       },
                       "rect": {
                         "x": 24,
@@ -1305,7 +1019,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_qdx5gegkd",
+                      "parentId": "row_y0i9w9ymb",
                       "isLeaf": false,
                       "isHover": false,
                       "isClick": false,
@@ -1321,8 +1035,9 @@
                               "height": "18px",
                               "flexDirection": "column"
                             },
-                            "className": "imageView_3",
-                            "src": ""
+                            "className": "imageView_4",
+                            "src": "",
+                            "alt": "选项/未选中_已激活备份 32"
                           },
                           "rect": {
                             "x": 24,
@@ -1339,7 +1054,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_1pwc357rd",
+                          "parentId": "row_gshdz3fki",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -1380,7 +1095,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_1pwc357rd",
+                          "parentId": "row_gshdz3fki",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -1420,7 +1135,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_1pwc357rd",
+                          "parentId": "row_gshdz3fki",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -1460,7 +1175,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_1pwc357rd",
+                          "parentId": "row_gshdz3fki",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -1501,7 +1216,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_qdx5gegkd",
+                      "parentId": "row_y0i9w9ymb",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -1521,7 +1236,7 @@
                           "borderRadius": "4px",
                           "flexDirection": "column"
                         },
-                        "className": "view_26"
+                        "className": "view_17"
                       },
                       "rect": {
                         "x": 288,
@@ -1538,7 +1253,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_qdx5gegkd",
+                      "parentId": "row_y0i9w9ymb",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -1577,7 +1292,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_qdx5gegkd",
+                      "parentId": "row_y0i9w9ymb",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -1602,7 +1317,7 @@
                   "flexDirection": "column",
                   "gap": "1px"
                 },
-                "className": "view_27"
+                "className": "view_18"
               },
               "rect": {
                 "x": 22,
@@ -1625,7 +1340,7 @@
               "isClick": false,
               "children": [
                 {
-                  "id": "row_2nlm51saf",
+                  "id": "row_gwhbsndtg",
                   "name": "Row",
                   "props": {
                     "style": {
@@ -1639,7 +1354,7 @@
                       "marginLeft": "12px",
                       "marginTop": "11px"
                     },
-                    "className": "view_28"
+                    "className": "view_19"
                   },
                   "rect": {
                     "x": 34,
@@ -1694,7 +1409,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_2nlm51saf",
+                      "parentId": "row_gwhbsndtg",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -1733,7 +1448,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_2nlm51saf",
+                      "parentId": "row_gwhbsndtg",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -1750,7 +1465,9 @@
                           "height": "20px",
                           "flexDirection": "column"
                         },
-                        "className": "view_29"
+                        "className": "imageView_5",
+                        "src": "",
+                        "alt": "小控件/icon_enter备份 23"
                       },
                       "rect": {
                         "x": 325,
@@ -1758,7 +1475,7 @@
                         "width": 20,
                         "height": 20
                       },
-                      "componentName": "Div",
+                      "componentName": "Image",
                       "intelligent": {
                         "layout_opt": {},
                         "is_need_detection": true
@@ -1767,84 +1484,11 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_2nlm51saf",
-                      "isLeaf": false,
+                      "parentId": "row_gwhbsndtg",
+                      "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
-                      "children": [
-                        {
-                          "id": "FFE9C074-6296-43F2-BD4A-7A168EBB7E3B",
-                          "name": "矩形",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "width": "20px",
-                              "height": "20px",
-                              "flexDirection": "column",
-                              "alignItems": "center",
-                              "justifyContent": "center"
-                            },
-                            "className": "view_30"
-                          },
-                          "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 20,
-                            "height": 20
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": true
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "706377DD-6808-4A94-B8DE-FF47F4CB89FC",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "32F1E25F-5AD3-4497-89EF-E83E834D7218",
-                              "name": "路径 6",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "4px",
-                                  "height": "8px",
-                                  "border": "1px solid rgba(153,153,153,1)",
-                                  "flexDirection": "column"
-                                },
-                                "className": "view_31"
-                              },
-                              "rect": {
-                                "x": 8,
-                                "y": 6,
-                                "width": 4,
-                                "height": 8
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "FFE9C074-6296-43F2-BD4A-7A168EBB7E3B",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
+                      "children": []
                     }
                   ]
                 },
@@ -1902,9 +1546,10 @@
                       "marginTop": "2px",
                       "border": "1px solid rgba(250,205,174,1)",
                       "borderRadius": "2px",
-                      "flexDirection": "column"
+                      "flexDirection": "column",
+                      "alignItems": "center"
                     },
-                    "className": "view_32"
+                    "className": "view_20"
                   },
                   "rect": {
                     "x": 34,
@@ -1927,7 +1572,7 @@
                   "isClick": false,
                   "children": [
                     {
-                      "id": "row_fvvf1rx9j",
+                      "id": "row_hia1nd32f",
                       "name": "Row",
                       "props": {
                         "style": {
@@ -1935,12 +1580,11 @@
                           "opacity": 1,
                           "flexDirection": "row",
                           "alignItems": "center",
-                          "justifyContent": "space-between",
                           "width": "292px",
                           "height": "48px",
                           "marginLeft": "9px"
                         },
-                        "className": "view_33"
+                        "className": "view_21"
                       },
                       "rect": {
                         "x": 43,
@@ -1963,24 +1607,64 @@
                       "isClick": false,
                       "children": [
                         {
-                          "id": "row_7lqsymt7a",
-                          "name": "LeftGroup",
+                          "id": "D4EBCF45-0548-452F-BA83-CCCF2D14B51A",
+                          "name": "DS",
+                          "props": {
+                            "style": {
+                              "opacity": 1,
+                              "width": "42px",
+                              "height": "20px",
+                              "color": "rgba(102,102,102,1)",
+                              "fontSize": "11px",
+                              "fontFamily": "PingFangSC-Regular",
+                              "textAlign": "center",
+                              "lineHeight": "20px",
+                              "whiteSpace": "nowrap"
+                            },
+                            "className": "text_17",
+                            "text": "DS",
+                            "lines": 1
+                          },
+                          "rect": {
+                            "x": 43,
+                            "y": 328,
+                            "width": 42,
+                            "height": 20
+                          },
+                          "componentName": "Text",
+                          "intelligent": {
+                            "layout_opt": {},
+                            "is_need_detection": false
+                          },
+                          "isInteractive": false,
+                          "lowcodeType": "KunBasicContainer",
+                          "ui_library_type": "",
+                          "ui_component_type": "",
+                          "parentId": "row_hia1nd32f",
+                          "isLeaf": true,
+                          "isHover": false,
+                          "isClick": false,
+                          "children": []
+                        },
+                        {
+                          "id": "F26752D1-21AC-4987-BAE8-0FD743CB4CDD",
+                          "name": "矩形",
                           "props": {
                             "style": {
                               "display": "flex",
                               "opacity": 1,
-                              "flexDirection": "row",
-                              "alignItems": "center",
-                              "gap": "5px",
-                              "width": "136px",
-                              "height": "48px"
+                              "width": "1px",
+                              "height": "48px",
+                              "marginLeft": "5px",
+                              "backgroundColor": "rgba(250,205,174,1)",
+                              "flexDirection": "column"
                             },
-                            "className": "view_34"
+                            "className": "view_22"
                           },
                           "rect": {
-                            "x": 43,
+                            "x": 90,
                             "y": 325,
-                            "width": 136,
+                            "width": 1,
                             "height": 48
                           },
                           "componentName": "Div",
@@ -1992,127 +1676,88 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_fvvf1rx9j",
-                          "isLeaf": false,
+                          "parentId": "row_hia1nd32f",
+                          "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
-                          "children": [
-                            {
-                              "id": "D4EBCF45-0548-452F-BA83-CCCF2D14B51A",
-                              "name": "DS",
-                              "props": {
-                                "style": {
-                                  "opacity": 1,
-                                  "width": "42px",
-                                  "height": "20px",
-                                  "color": "rgba(102,102,102,1)",
-                                  "fontSize": "11px",
-                                  "fontFamily": "PingFangSC-Regular",
-                                  "textAlign": "center",
-                                  "lineHeight": "20px",
-                                  "whiteSpace": "nowrap"
-                                },
-                                "className": "text_17",
-                                "text": "DS",
-                                "lines": 1
-                              },
-                              "rect": {
-                                "x": 43,
-                                "y": 328,
-                                "width": 42,
-                                "height": 20
-                              },
-                              "componentName": "Text",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_7lqsymt7a",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
+                          "children": []
+                        },
+                        {
+                          "id": "7AB00D65-5FF9-4EAD-A11D-D5246C43E129",
+                          "name": "机构MOB12-24",
+                          "props": {
+                            "style": {
+                              "opacity": 1,
+                              "width": "84px",
+                              "height": "20px",
+                              "marginLeft": "4px",
+                              "color": "rgba(102,102,102,1)",
+                              "fontSize": "11px",
+                              "fontFamily": "PingFangSC-Regular",
+                              "textAlign": "center",
+                              "lineHeight": "20px",
+                              "whiteSpace": "nowrap"
                             },
-                            {
-                              "id": "F26752D1-21AC-4987-BAE8-0FD743CB4CDD",
-                              "name": "矩形",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "1px",
-                                  "height": "48px",
-                                  "backgroundColor": "rgba(250,205,174,1)",
-                                  "flexDirection": "column"
-                                },
-                                "className": "view_35"
-                              },
-                              "rect": {
-                                "x": 90,
-                                "y": 325,
-                                "width": 1,
-                                "height": 48
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_7lqsymt7a",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
+                            "className": "text_18",
+                            "text": "机构MOB12-24",
+                            "lines": 1
+                          },
+                          "rect": {
+                            "x": 95,
+                            "y": 328,
+                            "width": 84,
+                            "height": 20
+                          },
+                          "componentName": "Text",
+                          "intelligent": {
+                            "layout_opt": {},
+                            "is_need_detection": false
+                          },
+                          "isInteractive": false,
+                          "lowcodeType": "KunBasicContainer",
+                          "ui_library_type": "",
+                          "ui_component_type": "",
+                          "parentId": "row_hia1nd32f",
+                          "isLeaf": true,
+                          "isHover": false,
+                          "isClick": false,
+                          "children": []
+                        },
+                        {
+                          "id": "8E73971D-434F-42FD-999E-4AD594A2B6D6",
+                          "name": "编组 16备份 3",
+                          "props": {
+                            "style": {
+                              "display": "flex",
+                              "opacity": 1,
+                              "width": "12px",
+                              "height": "12px",
+                              "flexDirection": "column"
                             },
-                            {
-                              "id": "7AB00D65-5FF9-4EAD-A11D-D5246C43E129",
-                              "name": "机构MOB12-24",
-                              "props": {
-                                "style": {
-                                  "opacity": 1,
-                                  "width": "84px",
-                                  "height": "20px",
-                                  "color": "rgba(102,102,102,1)",
-                                  "fontSize": "11px",
-                                  "fontFamily": "PingFangSC-Regular",
-                                  "textAlign": "center",
-                                  "lineHeight": "20px",
-                                  "whiteSpace": "nowrap"
-                                },
-                                "className": "text_18",
-                                "text": "机构MOB12-24",
-                                "lines": 1
-                              },
-                              "rect": {
-                                "x": 95,
-                                "y": 328,
-                                "width": 84,
-                                "height": 20
-                              },
-                              "componentName": "Text",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_7lqsymt7a",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
-                            }
-                          ]
+                            "className": "imageView_6",
+                            "src": "",
+                            "alt": "编组 16备份 3"
+                          },
+                          "rect": {
+                            "x": 179,
+                            "y": 332,
+                            "width": 12,
+                            "height": 12
+                          },
+                          "componentName": "Image",
+                          "intelligent": {
+                            "layout_opt": {},
+                            "is_need_detection": true
+                          },
+                          "isInteractive": false,
+                          "lowcodeType": "KunBasicContainer",
+                          "ui_library_type": "",
+                          "ui_component_type": "",
+                          "parentId": "row_hia1nd32f",
+                          "isLeaf": true,
+                          "isHover": false,
+                          "isClick": false,
+                          "children": []
                         },
                         {
                           "id": "5E65891B-E64A-4B0A-9F49-9E097C76E17E",
@@ -2123,10 +1768,11 @@
                               "opacity": 1,
                               "width": "1px",
                               "height": "48px",
+                              "marginLeft": "6px",
                               "backgroundColor": "rgba(250,205,174,1)",
                               "flexDirection": "column"
                             },
-                            "className": "view_36"
+                            "className": "view_23"
                           },
                           "rect": {
                             "x": 197,
@@ -2143,7 +1789,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_fvvf1rx9j",
+                          "parentId": "row_hia1nd32f",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -2155,7 +1801,9 @@
                           "props": {
                             "style": {
                               "opacity": 1,
+                              "width": "69px",
                               "height": "20px",
+                              "marginLeft": "1px",
                               "color": "rgba(102,102,102,1)",
                               "fontSize": "11px",
                               "fontFamily": "PingFangSC-Regular",
@@ -2182,7 +1830,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_fvvf1rx9j",
+                          "parentId": "row_hia1nd32f",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -2197,10 +1845,11 @@
                               "opacity": 1,
                               "width": "1px",
                               "height": "48px",
+                              "marginLeft": "2px",
                               "backgroundColor": "rgba(250,205,174,1)",
                               "flexDirection": "column"
                             },
-                            "className": "view_37"
+                            "className": "view_24"
                           },
                           "rect": {
                             "x": 270,
@@ -2217,7 +1866,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_fvvf1rx9j",
+                          "parentId": "row_hia1nd32f",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -2229,7 +1878,9 @@
                           "props": {
                             "style": {
                               "opacity": 1,
+                              "width": "61px",
                               "height": "20px",
+                              "marginLeft": "3px",
                               "color": "rgba(102,102,102,1)",
                               "fontSize": "11px",
                               "fontFamily": "PingFangSC-Regular",
@@ -2256,7 +1907,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_fvvf1rx9j",
+                          "parentId": "row_hia1nd32f",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -2265,224 +1916,7 @@
                       ]
                     },
                     {
-                      "id": "8E73971D-434F-42FD-999E-4AD594A2B6D6",
-                      "name": "编组 16备份 3",
-                      "props": {
-                        "style": {
-                          "display": "flex",
-                          "opacity": 1,
-                          "width": "12px",
-                          "height": "12px",
-                          "marginLeft": "145px",
-                          "flexDirection": "column"
-                        },
-                        "className": "view_38"
-                      },
-                      "rect": {
-                        "x": 179,
-                        "y": 332,
-                        "width": 12,
-                        "height": 12
-                      },
-                      "componentName": "Div",
-                      "intelligent": {
-                        "layout_opt": {},
-                        "is_need_detection": true
-                      },
-                      "isInteractive": false,
-                      "lowcodeType": "KunBasicContainer",
-                      "ui_library_type": "",
-                      "ui_component_type": "",
-                      "parentId": "0EBBFC0B-7334-416D-A371-CC7076EFF450",
-                      "isLeaf": false,
-                      "isHover": false,
-                      "isClick": false,
-                      "children": [
-                        {
-                          "id": "8A0FEE34-1EE9-4B6F-A3E4-81CA77D272EA",
-                          "name": "椭圆形",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "width": "12px",
-                              "height": "12px",
-                              "border": "1px solid rgba(151,151,151,1)",
-                              "flexDirection": "column",
-                              "alignItems": "center",
-                              "justifyContent": "center"
-                            },
-                            "className": "view_39"
-                          },
-                          "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 12,
-                            "height": 12
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": true
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "8E73971D-434F-42FD-999E-4AD594A2B6D6",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "BE2C4AC2-464E-4DC0-9878-87B499013163",
-                              "name": "？",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "4px",
-                                  "height": "7px",
-                                  "flexDirection": "column",
-                                  "alignItems": "center",
-                                  "justifyContent": "center"
-                                },
-                                "className": "view_40"
-                              },
-                              "rect": {
-                                "x": 4,
-                                "y": 3,
-                                "width": 4,
-                                "height": 7
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": true
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "8A0FEE34-1EE9-4B6F-A3E4-81CA77D272EA",
-                              "isLeaf": false,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": [
-                                {
-                                  "id": "9E42E0EB-1D2B-4D25-8EB5-E63BC252475C",
-                                  "name": "形状",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "4px",
-                                      "height": "7px",
-                                      "backgroundColor": "rgba(155,155,155,1)",
-                                      "flexDirection": "row",
-                                      "alignItems": "center",
-                                      "justifyContent": "space-between"
-                                    },
-                                    "className": "view_41"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "width": 4,
-                                    "height": 7
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": true
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "BE2C4AC2-464E-4DC0-9878-87B499013163",
-                                  "isLeaf": false,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": [
-                                    {
-                                      "id": "39CB3168-1B36-4EC9-B5F7-1470E0AFBDB7",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "4px",
-                                          "height": "5px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_42"
-                                      },
-                                      "rect": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 4,
-                                        "height": 5
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "9E42E0EB-1D2B-4D25-8EB5-E63BC252475C",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "31A91E19-143D-4E2B-BCFA-AF569E2FCD9B",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "1px",
-                                          "height": "1px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_43"
-                                      },
-                                      "rect": {
-                                        "x": 1,
-                                        "y": 6,
-                                        "width": 1,
-                                        "height": 1
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "9E42E0EB-1D2B-4D25-8EB5-E63BC252475C",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "row_31lo4socc",
+                      "id": "row_w27833ysn",
                       "name": "Row",
                       "props": {
                         "style": {
@@ -2492,10 +1926,9 @@
                           "alignItems": "center",
                           "justifyContent": "space-between",
                           "width": "306px",
-                          "height": "23px",
-                          "marginTop": "5px"
+                          "height": "23px"
                         },
-                        "className": "view_44"
+                        "className": "view_25"
                       },
                       "rect": {
                         "x": 34,
@@ -2518,7 +1951,7 @@
                       "isClick": false,
                       "children": [
                         {
-                          "id": "row_z9epvm1t8",
+                          "id": "row_c02bkbeoe",
                           "name": "LeftGroup",
                           "props": {
                             "style": {
@@ -2529,7 +1962,7 @@
                               "width": "306px",
                               "height": "23px"
                             },
-                            "className": "view_45"
+                            "className": "view_26"
                           },
                           "rect": {
                             "x": 34,
@@ -2546,7 +1979,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_31lo4socc",
+                          "parentId": "row_w27833ysn",
                           "isLeaf": false,
                           "isHover": false,
                           "isClick": false,
@@ -2563,7 +1996,7 @@
                                   "backgroundColor": "rgba(250,205,174,1)",
                                   "flexDirection": "column"
                                 },
-                                "className": "view_46"
+                                "className": "view_27"
                               },
                               "rect": {
                                 "x": 34,
@@ -2580,7 +2013,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_z9epvm1t8",
+                              "parentId": "row_c02bkbeoe",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -2620,7 +2053,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_z9epvm1t8",
+                              "parentId": "row_c02bkbeoe",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -2661,7 +2094,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_z9epvm1t8",
+                              "parentId": "row_c02bkbeoe",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -2702,7 +2135,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_31lo4socc",
+                          "parentId": "row_w27833ysn",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -2741,7 +2174,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_31lo4socc",
+                          "parentId": "row_w27833ysn",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -2771,7 +2204,7 @@
               "flexDirection": "column",
               "alignItems": "center"
             },
-            "className": "view_47"
+            "className": "view_28"
           },
           "rect": {
             "x": 10,
@@ -2807,7 +2240,7 @@
                   "alignItems": "center",
                   "justifyContent": "center"
                 },
-                "className": "view_48"
+                "className": "view_29"
               },
               "rect": {
                 "x": 22,
@@ -2830,7 +2263,7 @@
               "isClick": false,
               "children": [
                 {
-                  "id": "row_5195rcedz",
+                  "id": "row_y3d91if9p",
                   "name": "Row",
                   "props": {
                     "style": {
@@ -2843,7 +2276,7 @@
                       "height": "21px",
                       "marginLeft": "2px"
                     },
-                    "className": "view_49"
+                    "className": "view_30"
                   },
                   "rect": {
                     "x": 24,
@@ -2866,7 +2299,7 @@
                   "isClick": false,
                   "children": [
                     {
-                      "id": "row_2d11izfgj",
+                      "id": "row_gs6rkc5zr",
                       "name": "LeftGroup",
                       "props": {
                         "style": {
@@ -2878,7 +2311,7 @@
                           "width": "170px",
                           "height": "21px"
                         },
-                        "className": "view_50"
+                        "className": "view_31"
                       },
                       "rect": {
                         "x": 24,
@@ -2895,7 +2328,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_5195rcedz",
+                      "parentId": "row_y3d91if9p",
                       "isLeaf": false,
                       "isHover": false,
                       "isClick": false,
@@ -2911,8 +2344,9 @@
                               "height": "18px",
                               "flexDirection": "column"
                             },
-                            "className": "imageView_4",
-                            "src": ""
+                            "className": "imageView_7",
+                            "src": "",
+                            "alt": "选项/未选中_已激活备份 38"
                           },
                           "rect": {
                             "x": 24,
@@ -2929,7 +2363,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_2d11izfgj",
+                          "parentId": "row_gs6rkc5zr",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -2970,7 +2404,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_2d11izfgj",
+                          "parentId": "row_gs6rkc5zr",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -3010,7 +2444,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_2d11izfgj",
+                          "parentId": "row_gs6rkc5zr",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -3050,7 +2484,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_2d11izfgj",
+                          "parentId": "row_gs6rkc5zr",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -3091,7 +2525,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_5195rcedz",
+                      "parentId": "row_y3d91if9p",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -3111,7 +2545,7 @@
                           "borderRadius": "4px",
                           "flexDirection": "column"
                         },
-                        "className": "view_51"
+                        "className": "view_32"
                       },
                       "rect": {
                         "x": 288,
@@ -3128,7 +2562,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_5195rcedz",
+                      "parentId": "row_y3d91if9p",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -3167,7 +2601,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_5195rcedz",
+                      "parentId": "row_y3d91if9p",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -3191,7 +2625,7 @@
                   "flexDirection": "column",
                   "gap": "2px"
                 },
-                "className": "view_52"
+                "className": "view_33"
               },
               "rect": {
                 "x": 22,
@@ -3214,7 +2648,7 @@
               "isClick": false,
               "children": [
                 {
-                  "id": "row_4rykj9zp0",
+                  "id": "row_c257kkwhx",
                   "name": "Row",
                   "props": {
                     "style": {
@@ -3228,7 +2662,7 @@
                       "marginLeft": "12px",
                       "marginTop": "12px"
                     },
-                    "className": "view_53"
+                    "className": "view_34"
                   },
                   "rect": {
                     "x": 34,
@@ -3283,7 +2717,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_4rykj9zp0",
+                      "parentId": "row_c257kkwhx",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -3322,7 +2756,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_4rykj9zp0",
+                      "parentId": "row_c257kkwhx",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -3339,7 +2773,9 @@
                           "height": "20px",
                           "flexDirection": "column"
                         },
-                        "className": "view_54"
+                        "className": "imageView_8",
+                        "src": "",
+                        "alt": "小控件/icon_enter备份 26"
                       },
                       "rect": {
                         "x": 325,
@@ -3347,7 +2783,7 @@
                         "width": 20,
                         "height": 20
                       },
-                      "componentName": "Div",
+                      "componentName": "Image",
                       "intelligent": {
                         "layout_opt": {},
                         "is_need_detection": true
@@ -3356,84 +2792,11 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_4rykj9zp0",
-                      "isLeaf": false,
+                      "parentId": "row_c257kkwhx",
+                      "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
-                      "children": [
-                        {
-                          "id": "3C886A8F-A581-4F3A-8A81-D41BC5776E6C",
-                          "name": "矩形",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "width": "20px",
-                              "height": "20px",
-                              "flexDirection": "column",
-                              "alignItems": "center",
-                              "justifyContent": "center"
-                            },
-                            "className": "view_55"
-                          },
-                          "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 20,
-                            "height": 20
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": true
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "2B5C03D2-3A04-48F3-A497-9908566AD6A2",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "C9712BBF-7BAA-4844-9DA0-B33B3C660120",
-                              "name": "路径 6",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "4px",
-                                  "height": "8px",
-                                  "border": "1px solid rgba(153,153,153,1)",
-                                  "flexDirection": "column"
-                                },
-                                "className": "view_56"
-                              },
-                              "rect": {
-                                "x": 8,
-                                "y": 6,
-                                "width": 4,
-                                "height": 8
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "3C886A8F-A581-4F3A-8A81-D41BC5776E6C",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
+                      "children": []
                     }
                   ]
                 },
@@ -3492,9 +2855,10 @@
                       "marginTop": "2px",
                       "border": "1px solid rgba(250,205,174,1)",
                       "borderRadius": "2px",
-                      "flexDirection": "column"
+                      "flexDirection": "column",
+                      "alignItems": "center"
                     },
-                    "className": "view_57"
+                    "className": "view_35"
                   },
                   "rect": {
                     "x": 34,
@@ -3517,7 +2881,7 @@
                   "isClick": false,
                   "children": [
                     {
-                      "id": "row_u8a9znddo",
+                      "id": "row_6xr20g9fe",
                       "name": "Row",
                       "props": {
                         "style": {
@@ -3525,12 +2889,11 @@
                           "opacity": 1,
                           "flexDirection": "row",
                           "alignItems": "center",
-                          "justifyContent": "space-between",
                           "width": "292px",
                           "height": "48px",
                           "marginLeft": "9px"
                         },
-                        "className": "view_58"
+                        "className": "view_36"
                       },
                       "rect": {
                         "x": 43,
@@ -3553,24 +2916,64 @@
                       "isClick": false,
                       "children": [
                         {
-                          "id": "row_dvhe2pejx",
-                          "name": "LeftGroup",
+                          "id": "55F826F2-34BB-40ED-B0A5-DB21F914F715",
+                          "name": "DS备份",
+                          "props": {
+                            "style": {
+                              "opacity": 1,
+                              "width": "42px",
+                              "height": "20px",
+                              "color": "rgba(102,102,102,1)",
+                              "fontSize": "11px",
+                              "fontFamily": "PingFangSC-Regular",
+                              "textAlign": "center",
+                              "lineHeight": "20px",
+                              "whiteSpace": "nowrap"
+                            },
+                            "className": "text_33",
+                            "text": "DS",
+                            "lines": 1
+                          },
+                          "rect": {
+                            "x": 43,
+                            "y": 510,
+                            "width": 42,
+                            "height": 20
+                          },
+                          "componentName": "Text",
+                          "intelligent": {
+                            "layout_opt": {},
+                            "is_need_detection": false
+                          },
+                          "isInteractive": false,
+                          "lowcodeType": "KunBasicContainer",
+                          "ui_library_type": "",
+                          "ui_component_type": "",
+                          "parentId": "row_6xr20g9fe",
+                          "isLeaf": true,
+                          "isHover": false,
+                          "isClick": false,
+                          "children": []
+                        },
+                        {
+                          "id": "52F9E6B9-2152-4C5D-A560-A47F304E9A75",
+                          "name": "矩形备份 68",
                           "props": {
                             "style": {
                               "display": "flex",
                               "opacity": 1,
-                              "flexDirection": "row",
-                              "alignItems": "center",
-                              "gap": "5px",
-                              "width": "137px",
-                              "height": "48px"
+                              "width": "1px",
+                              "height": "48px",
+                              "marginLeft": "5px",
+                              "backgroundColor": "rgba(250,205,174,1)",
+                              "flexDirection": "column"
                             },
-                            "className": "view_59"
+                            "className": "view_37"
                           },
                           "rect": {
-                            "x": 43,
+                            "x": 90,
                             "y": 507,
-                            "width": 137,
+                            "width": 1,
                             "height": 48
                           },
                           "componentName": "Div",
@@ -3582,127 +2985,88 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_u8a9znddo",
-                          "isLeaf": false,
+                          "parentId": "row_6xr20g9fe",
+                          "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
-                          "children": [
-                            {
-                              "id": "55F826F2-34BB-40ED-B0A5-DB21F914F715",
-                              "name": "DS备份",
-                              "props": {
-                                "style": {
-                                  "opacity": 1,
-                                  "width": "42px",
-                                  "height": "20px",
-                                  "color": "rgba(102,102,102,1)",
-                                  "fontSize": "11px",
-                                  "fontFamily": "PingFangSC-Regular",
-                                  "textAlign": "center",
-                                  "lineHeight": "20px",
-                                  "whiteSpace": "nowrap"
-                                },
-                                "className": "text_33",
-                                "text": "DS",
-                                "lines": 1
-                              },
-                              "rect": {
-                                "x": 43,
-                                "y": 510,
-                                "width": 42,
-                                "height": 20
-                              },
-                              "componentName": "Text",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_dvhe2pejx",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
+                          "children": []
+                        },
+                        {
+                          "id": "D3B4B504-38E0-420B-AED4-E2980013C49F",
+                          "name": "机构MOB12-24",
+                          "props": {
+                            "style": {
+                              "opacity": 1,
+                              "width": "84px",
+                              "height": "20px",
+                              "marginLeft": "5px",
+                              "color": "rgba(102,102,102,1)",
+                              "fontSize": "11px",
+                              "fontFamily": "PingFangSC-Regular",
+                              "textAlign": "center",
+                              "lineHeight": "20px",
+                              "whiteSpace": "nowrap"
                             },
-                            {
-                              "id": "52F9E6B9-2152-4C5D-A560-A47F304E9A75",
-                              "name": "矩形备份 68",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "1px",
-                                  "height": "48px",
-                                  "backgroundColor": "rgba(250,205,174,1)",
-                                  "flexDirection": "column"
-                                },
-                                "className": "view_60"
-                              },
-                              "rect": {
-                                "x": 90,
-                                "y": 507,
-                                "width": 1,
-                                "height": 48
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_dvhe2pejx",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
+                            "className": "text_34",
+                            "text": "机构MOB12-24",
+                            "lines": 1
+                          },
+                          "rect": {
+                            "x": 96,
+                            "y": 510,
+                            "width": 84,
+                            "height": 20
+                          },
+                          "componentName": "Text",
+                          "intelligent": {
+                            "layout_opt": {},
+                            "is_need_detection": false
+                          },
+                          "isInteractive": false,
+                          "lowcodeType": "KunBasicContainer",
+                          "ui_library_type": "",
+                          "ui_component_type": "",
+                          "parentId": "row_6xr20g9fe",
+                          "isLeaf": true,
+                          "isHover": false,
+                          "isClick": false,
+                          "children": []
+                        },
+                        {
+                          "id": "83FCFA55-0C4E-43D7-899E-5E3ED43E768D",
+                          "name": "编组 16备份 4",
+                          "props": {
+                            "style": {
+                              "display": "flex",
+                              "opacity": 1,
+                              "width": "12px",
+                              "height": "12px",
+                              "flexDirection": "column"
                             },
-                            {
-                              "id": "D3B4B504-38E0-420B-AED4-E2980013C49F",
-                              "name": "机构MOB12-24",
-                              "props": {
-                                "style": {
-                                  "opacity": 1,
-                                  "width": "84px",
-                                  "height": "20px",
-                                  "color": "rgba(102,102,102,1)",
-                                  "fontSize": "11px",
-                                  "fontFamily": "PingFangSC-Regular",
-                                  "textAlign": "center",
-                                  "lineHeight": "20px",
-                                  "whiteSpace": "nowrap"
-                                },
-                                "className": "text_34",
-                                "text": "机构MOB12-24",
-                                "lines": 1
-                              },
-                              "rect": {
-                                "x": 96,
-                                "y": 510,
-                                "width": 84,
-                                "height": 20
-                              },
-                              "componentName": "Text",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_dvhe2pejx",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
-                            }
-                          ]
+                            "className": "imageView_9",
+                            "src": "",
+                            "alt": "编组 16备份 4"
+                          },
+                          "rect": {
+                            "x": 180,
+                            "y": 514,
+                            "width": 12,
+                            "height": 12
+                          },
+                          "componentName": "Image",
+                          "intelligent": {
+                            "layout_opt": {},
+                            "is_need_detection": true
+                          },
+                          "isInteractive": false,
+                          "lowcodeType": "KunBasicContainer",
+                          "ui_library_type": "",
+                          "ui_component_type": "",
+                          "parentId": "row_6xr20g9fe",
+                          "isLeaf": true,
+                          "isHover": false,
+                          "isClick": false,
+                          "children": []
                         },
                         {
                           "id": "E3855659-44BA-412F-A728-6D1704F22CB0",
@@ -3713,10 +3077,11 @@
                               "opacity": 1,
                               "width": "1px",
                               "height": "48px",
+                              "marginLeft": "5px",
                               "backgroundColor": "rgba(250,205,174,1)",
                               "flexDirection": "column"
                             },
-                            "className": "view_61"
+                            "className": "view_38"
                           },
                           "rect": {
                             "x": 197,
@@ -3733,7 +3098,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_u8a9znddo",
+                          "parentId": "row_6xr20g9fe",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -3745,7 +3110,9 @@
                           "props": {
                             "style": {
                               "opacity": 1,
+                              "width": "69px",
                               "height": "20px",
+                              "marginLeft": "1px",
                               "color": "rgba(102,102,102,1)",
                               "fontSize": "11px",
                               "fontFamily": "PingFangSC-Regular",
@@ -3772,7 +3139,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_u8a9znddo",
+                          "parentId": "row_6xr20g9fe",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -3787,10 +3154,11 @@
                               "opacity": 1,
                               "width": "1px",
                               "height": "48px",
+                              "marginLeft": "2px",
                               "backgroundColor": "rgba(250,205,174,1)",
                               "flexDirection": "column"
                             },
-                            "className": "view_62"
+                            "className": "view_39"
                           },
                           "rect": {
                             "x": 270,
@@ -3807,7 +3175,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_u8a9znddo",
+                          "parentId": "row_6xr20g9fe",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -3819,7 +3187,9 @@
                           "props": {
                             "style": {
                               "opacity": 1,
+                              "width": "61px",
                               "height": "20px",
+                              "marginLeft": "3px",
                               "color": "rgba(102,102,102,1)",
                               "fontSize": "11px",
                               "fontFamily": "PingFangSC-Regular",
@@ -3846,7 +3216,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_u8a9znddo",
+                          "parentId": "row_6xr20g9fe",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -3855,224 +3225,7 @@
                       ]
                     },
                     {
-                      "id": "83FCFA55-0C4E-43D7-899E-5E3ED43E768D",
-                      "name": "编组 16备份 4",
-                      "props": {
-                        "style": {
-                          "display": "flex",
-                          "opacity": 1,
-                          "width": "12px",
-                          "height": "12px",
-                          "marginLeft": "146px",
-                          "flexDirection": "column"
-                        },
-                        "className": "view_63"
-                      },
-                      "rect": {
-                        "x": 180,
-                        "y": 514,
-                        "width": 12,
-                        "height": 12
-                      },
-                      "componentName": "Div",
-                      "intelligent": {
-                        "layout_opt": {},
-                        "is_need_detection": true
-                      },
-                      "isInteractive": false,
-                      "lowcodeType": "KunBasicContainer",
-                      "ui_library_type": "",
-                      "ui_component_type": "",
-                      "parentId": "95074E64-C3F6-446F-A40C-B4D9B607AC93",
-                      "isLeaf": false,
-                      "isHover": false,
-                      "isClick": false,
-                      "children": [
-                        {
-                          "id": "6C5A3B92-EA36-404F-A86B-B11ACA33C4DA",
-                          "name": "椭圆形",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "width": "12px",
-                              "height": "12px",
-                              "border": "1px solid rgba(151,151,151,1)",
-                              "flexDirection": "column",
-                              "alignItems": "center",
-                              "justifyContent": "center"
-                            },
-                            "className": "view_64"
-                          },
-                          "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 12,
-                            "height": 12
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": true
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "83FCFA55-0C4E-43D7-899E-5E3ED43E768D",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "0B6F63A6-CE7D-4484-B56A-32682994F625",
-                              "name": "？",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "4px",
-                                  "height": "7px",
-                                  "flexDirection": "column",
-                                  "alignItems": "center",
-                                  "justifyContent": "center"
-                                },
-                                "className": "view_65"
-                              },
-                              "rect": {
-                                "x": 4,
-                                "y": 3,
-                                "width": 4,
-                                "height": 7
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": true
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "6C5A3B92-EA36-404F-A86B-B11ACA33C4DA",
-                              "isLeaf": false,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": [
-                                {
-                                  "id": "94CBD5D7-5211-4241-875C-0B39AF1FADC6",
-                                  "name": "形状",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "4px",
-                                      "height": "7px",
-                                      "backgroundColor": "rgba(155,155,155,1)",
-                                      "flexDirection": "row",
-                                      "alignItems": "center",
-                                      "justifyContent": "space-between"
-                                    },
-                                    "className": "view_66"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "width": 4,
-                                    "height": 7
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": true
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "0B6F63A6-CE7D-4484-B56A-32682994F625",
-                                  "isLeaf": false,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": [
-                                    {
-                                      "id": "96E1B856-8E27-4190-9787-AD9B35D98C07",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "4px",
-                                          "height": "5px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_67"
-                                      },
-                                      "rect": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 4,
-                                        "height": 5
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "94CBD5D7-5211-4241-875C-0B39AF1FADC6",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "2FD9308A-0224-43CB-8D48-1C9B200E102C",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "1px",
-                                          "height": "1px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_68"
-                                      },
-                                      "rect": {
-                                        "x": 1,
-                                        "y": 6,
-                                        "width": 1,
-                                        "height": 1
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "94CBD5D7-5211-4241-875C-0B39AF1FADC6",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "row_0a4e7ojbb",
+                      "id": "row_5zjbej3yj",
                       "name": "Row",
                       "props": {
                         "style": {
@@ -4082,10 +3235,9 @@
                           "alignItems": "center",
                           "justifyContent": "space-between",
                           "width": "306px",
-                          "height": "23px",
-                          "marginTop": "5px"
+                          "height": "23px"
                         },
-                        "className": "view_69"
+                        "className": "view_40"
                       },
                       "rect": {
                         "x": 34,
@@ -4108,7 +3260,7 @@
                       "isClick": false,
                       "children": [
                         {
-                          "id": "row_r7xphqmcv",
+                          "id": "row_ngbz2c9tv",
                           "name": "LeftGroup",
                           "props": {
                             "style": {
@@ -4119,7 +3271,7 @@
                               "width": "306px",
                               "height": "23px"
                             },
-                            "className": "view_70"
+                            "className": "view_41"
                           },
                           "rect": {
                             "x": 34,
@@ -4136,7 +3288,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_0a4e7ojbb",
+                          "parentId": "row_5zjbej3yj",
                           "isLeaf": false,
                           "isHover": false,
                           "isClick": false,
@@ -4153,7 +3305,7 @@
                                   "backgroundColor": "rgba(250,205,174,1)",
                                   "flexDirection": "column"
                                 },
-                                "className": "view_71"
+                                "className": "view_42"
                               },
                               "rect": {
                                 "x": 34,
@@ -4170,7 +3322,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_r7xphqmcv",
+                              "parentId": "row_ngbz2c9tv",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -4210,7 +3362,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_r7xphqmcv",
+                              "parentId": "row_ngbz2c9tv",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -4251,7 +3403,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_r7xphqmcv",
+                              "parentId": "row_ngbz2c9tv",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -4292,7 +3444,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_0a4e7ojbb",
+                          "parentId": "row_5zjbej3yj",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -4331,7 +3483,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_0a4e7ojbb",
+                          "parentId": "row_5zjbej3yj",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -4361,7 +3513,7 @@
               "flexDirection": "column",
               "alignItems": "center"
             },
-            "className": "view_72"
+            "className": "view_43"
           },
           "rect": {
             "x": 10,
@@ -4397,7 +3549,7 @@
                   "alignItems": "center",
                   "justifyContent": "center"
                 },
-                "className": "view_73"
+                "className": "view_44"
               },
               "rect": {
                 "x": 22,
@@ -4420,7 +3572,7 @@
               "isClick": false,
               "children": [
                 {
-                  "id": "row_3yzp0v6qa",
+                  "id": "row_m6e1f0a8a",
                   "name": "Row",
                   "props": {
                     "style": {
@@ -4433,7 +3585,7 @@
                       "height": "22px",
                       "marginLeft": "2px"
                     },
-                    "className": "view_74"
+                    "className": "view_45"
                   },
                   "rect": {
                     "x": 24,
@@ -4456,7 +3608,7 @@
                   "isClick": false,
                   "children": [
                     {
-                      "id": "row_l4q9217kh",
+                      "id": "row_ky99fit7j",
                       "name": "LeftGroup",
                       "props": {
                         "style": {
@@ -4468,7 +3620,7 @@
                           "width": "173px",
                           "height": "21px"
                         },
-                        "className": "view_75"
+                        "className": "view_46"
                       },
                       "rect": {
                         "x": 24,
@@ -4485,7 +3637,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_3yzp0v6qa",
+                      "parentId": "row_m6e1f0a8a",
                       "isLeaf": false,
                       "isHover": false,
                       "isClick": false,
@@ -4501,8 +3653,9 @@
                               "height": "18px",
                               "flexDirection": "column"
                             },
-                            "className": "imageView_5",
-                            "src": ""
+                            "className": "imageView_10",
+                            "src": "",
+                            "alt": "选项/未选中_已激活备份 39"
                           },
                           "rect": {
                             "x": 24,
@@ -4519,7 +3672,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_l4q9217kh",
+                          "parentId": "row_ky99fit7j",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -4560,7 +3713,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_l4q9217kh",
+                          "parentId": "row_ky99fit7j",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -4600,7 +3753,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_l4q9217kh",
+                          "parentId": "row_ky99fit7j",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -4640,7 +3793,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_l4q9217kh",
+                          "parentId": "row_ky99fit7j",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -4681,7 +3834,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_3yzp0v6qa",
+                      "parentId": "row_m6e1f0a8a",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -4701,7 +3854,7 @@
                           "borderRadius": "4px",
                           "flexDirection": "column"
                         },
-                        "className": "view_76"
+                        "className": "view_47"
                       },
                       "rect": {
                         "x": 288,
@@ -4718,7 +3871,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_3yzp0v6qa",
+                      "parentId": "row_m6e1f0a8a",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -4757,7 +3910,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_3yzp0v6qa",
+                      "parentId": "row_m6e1f0a8a",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -4781,7 +3934,7 @@
                   "flexDirection": "column",
                   "gap": "2px"
                 },
-                "className": "view_77"
+                "className": "view_48"
               },
               "rect": {
                 "x": 22,
@@ -4804,7 +3957,7 @@
               "isClick": false,
               "children": [
                 {
-                  "id": "row_i84vnzfru",
+                  "id": "row_z25atkgb2",
                   "name": "Row",
                   "props": {
                     "style": {
@@ -4818,7 +3971,7 @@
                       "marginLeft": "12px",
                       "marginTop": "12px"
                     },
-                    "className": "view_78"
+                    "className": "view_49"
                   },
                   "rect": {
                     "x": 34,
@@ -4873,7 +4026,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_i84vnzfru",
+                      "parentId": "row_z25atkgb2",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -4912,7 +4065,7 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_i84vnzfru",
+                      "parentId": "row_z25atkgb2",
                       "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
@@ -4929,7 +4082,9 @@
                           "height": "20px",
                           "flexDirection": "column"
                         },
-                        "className": "view_79"
+                        "className": "imageView_11",
+                        "src": "",
+                        "alt": "小控件/icon_enter备份 27"
                       },
                       "rect": {
                         "x": 325,
@@ -4937,7 +4092,7 @@
                         "width": 20,
                         "height": 20
                       },
-                      "componentName": "Div",
+                      "componentName": "Image",
                       "intelligent": {
                         "layout_opt": {},
                         "is_need_detection": true
@@ -4946,84 +4101,11 @@
                       "lowcodeType": "KunBasicContainer",
                       "ui_library_type": "",
                       "ui_component_type": "",
-                      "parentId": "row_i84vnzfru",
-                      "isLeaf": false,
+                      "parentId": "row_z25atkgb2",
+                      "isLeaf": true,
                       "isHover": false,
                       "isClick": false,
-                      "children": [
-                        {
-                          "id": "A67A4693-BBE0-4146-930E-88245DB5FB66",
-                          "name": "矩形",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "width": "20px",
-                              "height": "20px",
-                              "flexDirection": "column",
-                              "alignItems": "center",
-                              "justifyContent": "center"
-                            },
-                            "className": "view_80"
-                          },
-                          "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 20,
-                            "height": 20
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": true
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "82C91F98-4ACD-4F2C-BFF4-382553464C2D",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "2CFB0896-4328-447C-A24E-B7E89F5D9238",
-                              "name": "路径 6",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "4px",
-                                  "height": "8px",
-                                  "border": "1px solid rgba(153,153,153,1)",
-                                  "flexDirection": "column"
-                                },
-                                "className": "view_81"
-                              },
-                              "rect": {
-                                "x": 8,
-                                "y": 6,
-                                "width": 4,
-                                "height": 8
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": false
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "A67A4693-BBE0-4146-930E-88245DB5FB66",
-                              "isLeaf": true,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": []
-                            }
-                          ]
-                        }
-                      ]
+                      "children": []
                     }
                   ]
                 },
@@ -5082,9 +4164,10 @@
                       "marginTop": "2px",
                       "border": "1px solid rgba(250,205,174,1)",
                       "borderRadius": "2px",
-                      "flexDirection": "column"
+                      "flexDirection": "column",
+                      "alignItems": "center"
                     },
-                    "className": "view_82"
+                    "className": "view_50"
                   },
                   "rect": {
                     "x": 34,
@@ -5107,7 +4190,7 @@
                   "isClick": false,
                   "children": [
                     {
-                      "id": "row_ytp3m4dyk",
+                      "id": "row_5ihmdehy1",
                       "name": "Row",
                       "props": {
                         "style": {
@@ -5120,7 +4203,7 @@
                           "height": "48px",
                           "marginLeft": "9px"
                         },
-                        "className": "view_83"
+                        "className": "view_51"
                       },
                       "rect": {
                         "x": 43,
@@ -5143,7 +4226,7 @@
                       "isClick": false,
                       "children": [
                         {
-                          "id": "row_x67ql57sz",
+                          "id": "row_z0pqx4myp",
                           "name": "LeftGroup",
                           "props": {
                             "style": {
@@ -5151,16 +4234,16 @@
                               "opacity": 1,
                               "flexDirection": "row",
                               "alignItems": "center",
-                              "gap": "7px",
-                              "width": "130px",
+                              "gap": "4px",
+                              "width": "142px",
                               "height": "48px"
                             },
-                            "className": "view_84"
+                            "className": "view_52"
                           },
                           "rect": {
                             "x": 43,
                             "y": 689,
-                            "width": 130,
+                            "width": 142,
                             "height": 48
                           },
                           "componentName": "Div",
@@ -5172,7 +4255,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ytp3m4dyk",
+                          "parentId": "row_5ihmdehy1",
                           "isLeaf": false,
                           "isHover": false,
                           "isClick": false,
@@ -5211,7 +4294,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_x67ql57sz",
+                              "parentId": "row_z0pqx4myp",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -5229,7 +4312,7 @@
                                   "backgroundColor": "rgba(250,205,174,1)",
                                   "flexDirection": "column"
                                 },
-                                "className": "view_85"
+                                "className": "view_53"
                               },
                               "rect": {
                                 "x": 90,
@@ -5246,7 +4329,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_x67ql57sz",
+                              "parentId": "row_z0pqx4myp",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -5286,7 +4369,43 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_x67ql57sz",
+                              "parentId": "row_z0pqx4myp",
+                              "isLeaf": true,
+                              "isHover": false,
+                              "isClick": false,
+                              "children": []
+                            },
+                            {
+                              "id": "EFE87D3F-D71F-4F2B-B290-283202C6AF44",
+                              "name": "编组 16备份 5",
+                              "props": {
+                                "style": {
+                                  "display": "flex",
+                                  "opacity": 1,
+                                  "width": "12px",
+                                  "height": "12px",
+                                  "flexDirection": "column"
+                                },
+                                "className": "imageView_12",
+                                "src": "",
+                                "alt": "编组 16备份 5"
+                              },
+                              "rect": {
+                                "x": 173,
+                                "y": 696,
+                                "width": 12,
+                                "height": 12
+                              },
+                              "componentName": "Image",
+                              "intelligent": {
+                                "layout_opt": {},
+                                "is_need_detection": true
+                              },
+                              "isInteractive": false,
+                              "lowcodeType": "KunBasicContainer",
+                              "ui_library_type": "",
+                              "ui_component_type": "",
+                              "parentId": "row_z0pqx4myp",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -5306,7 +4425,7 @@
                               "backgroundColor": "rgba(250,205,174,1)",
                               "flexDirection": "column"
                             },
-                            "className": "view_86"
+                            "className": "view_54"
                           },
                           "rect": {
                             "x": 197,
@@ -5323,7 +4442,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ytp3m4dyk",
+                          "parentId": "row_5ihmdehy1",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -5362,7 +4481,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ytp3m4dyk",
+                          "parentId": "row_5ihmdehy1",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -5380,7 +4499,7 @@
                               "backgroundColor": "rgba(250,205,174,1)",
                               "flexDirection": "column"
                             },
-                            "className": "view_87"
+                            "className": "view_55"
                           },
                           "rect": {
                             "x": 270,
@@ -5397,7 +4516,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ytp3m4dyk",
+                          "parentId": "row_5ihmdehy1",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -5436,7 +4555,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ytp3m4dyk",
+                          "parentId": "row_5ihmdehy1",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -5445,224 +4564,7 @@
                       ]
                     },
                     {
-                      "id": "EFE87D3F-D71F-4F2B-B290-283202C6AF44",
-                      "name": "编组 16备份 5",
-                      "props": {
-                        "style": {
-                          "display": "flex",
-                          "opacity": 1,
-                          "width": "12px",
-                          "height": "12px",
-                          "marginLeft": "139px",
-                          "flexDirection": "column"
-                        },
-                        "className": "view_88"
-                      },
-                      "rect": {
-                        "x": 173,
-                        "y": 696,
-                        "width": 12,
-                        "height": 12
-                      },
-                      "componentName": "Div",
-                      "intelligent": {
-                        "layout_opt": {},
-                        "is_need_detection": true
-                      },
-                      "isInteractive": false,
-                      "lowcodeType": "KunBasicContainer",
-                      "ui_library_type": "",
-                      "ui_component_type": "",
-                      "parentId": "02AD7018-0811-45ED-A580-5A4CC4613FB7",
-                      "isLeaf": false,
-                      "isHover": false,
-                      "isClick": false,
-                      "children": [
-                        {
-                          "id": "31AF28F7-9B26-4205-8927-47E6325B709F",
-                          "name": "椭圆形",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "width": "12px",
-                              "height": "12px",
-                              "border": "1px solid rgba(151,151,151,1)",
-                              "flexDirection": "column",
-                              "alignItems": "center",
-                              "justifyContent": "center"
-                            },
-                            "className": "view_89"
-                          },
-                          "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 12,
-                            "height": 12
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": true
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "EFE87D3F-D71F-4F2B-B290-283202C6AF44",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "F372C643-8D86-48F7-9424-0604FB0CA5E5",
-                              "name": "？",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "4px",
-                                  "height": "7px",
-                                  "flexDirection": "column",
-                                  "alignItems": "center",
-                                  "justifyContent": "center"
-                                },
-                                "className": "view_90"
-                              },
-                              "rect": {
-                                "x": 4,
-                                "y": 3,
-                                "width": 4,
-                                "height": 7
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": true
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "31AF28F7-9B26-4205-8927-47E6325B709F",
-                              "isLeaf": false,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": [
-                                {
-                                  "id": "AEBDE227-8C93-42BC-AAE1-5EB01B243656",
-                                  "name": "形状",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "4px",
-                                      "height": "7px",
-                                      "backgroundColor": "rgba(155,155,155,1)",
-                                      "flexDirection": "row",
-                                      "alignItems": "center",
-                                      "justifyContent": "space-between"
-                                    },
-                                    "className": "view_91"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "width": 4,
-                                    "height": 7
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": true
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "F372C643-8D86-48F7-9424-0604FB0CA5E5",
-                                  "isLeaf": false,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": [
-                                    {
-                                      "id": "33E11447-9D00-4CE3-A189-24D3EB04FA0D",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "4px",
-                                          "height": "5px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_92"
-                                      },
-                                      "rect": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 4,
-                                        "height": 5
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "AEBDE227-8C93-42BC-AAE1-5EB01B243656",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "B8ADA771-764B-400B-9DF5-5A2A20967834",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "1px",
-                                          "height": "1px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_93"
-                                      },
-                                      "rect": {
-                                        "x": 1,
-                                        "y": 6,
-                                        "width": 1,
-                                        "height": 1
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "AEBDE227-8C93-42BC-AAE1-5EB01B243656",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "id": "row_ghwluzygu",
+                      "id": "row_vuzvgsfnt",
                       "name": "Row",
                       "props": {
                         "style": {
@@ -5672,10 +4574,9 @@
                           "alignItems": "center",
                           "justifyContent": "space-between",
                           "width": "306px",
-                          "height": "23px",
-                          "marginTop": "5px"
+                          "height": "23px"
                         },
-                        "className": "view_94"
+                        "className": "view_56"
                       },
                       "rect": {
                         "x": 34,
@@ -5698,7 +4599,7 @@
                       "isClick": false,
                       "children": [
                         {
-                          "id": "row_65za48uzu",
+                          "id": "row_m7vendcn7",
                           "name": "LeftGroup",
                           "props": {
                             "style": {
@@ -5709,7 +4610,7 @@
                               "width": "306px",
                               "height": "23px"
                             },
-                            "className": "view_95"
+                            "className": "view_57"
                           },
                           "rect": {
                             "x": 34,
@@ -5726,7 +4627,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ghwluzygu",
+                          "parentId": "row_vuzvgsfnt",
                           "isLeaf": false,
                           "isHover": false,
                           "isClick": false,
@@ -5743,7 +4644,7 @@
                                   "backgroundColor": "rgba(250,205,174,1)",
                                   "flexDirection": "column"
                                 },
-                                "className": "view_96"
+                                "className": "view_58"
                               },
                               "rect": {
                                 "x": 34,
@@ -5760,7 +4661,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_65za48uzu",
+                              "parentId": "row_m7vendcn7",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -5800,7 +4701,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_65za48uzu",
+                              "parentId": "row_m7vendcn7",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -5841,7 +4742,7 @@
                               "lowcodeType": "KunBasicContainer",
                               "ui_library_type": "",
                               "ui_component_type": "",
-                              "parentId": "row_65za48uzu",
+                              "parentId": "row_m7vendcn7",
                               "isLeaf": true,
                               "isHover": false,
                               "isClick": false,
@@ -5882,7 +4783,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ghwluzygu",
+                          "parentId": "row_vuzvgsfnt",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -5921,7 +4822,7 @@
                           "lowcodeType": "KunBasicContainer",
                           "ui_library_type": "",
                           "ui_component_type": "",
-                          "parentId": "row_ghwluzygu",
+                          "parentId": "row_vuzvgsfnt",
                           "isLeaf": true,
                           "isHover": false,
                           "isClick": false,
@@ -5945,9 +4846,11 @@
               "width": "375px",
               "height": "64px",
               "backgroundColor": "rgba(255,255,255,1)",
-              "flexDirection": "column"
+              "flexDirection": "row",
+              "alignItems": "center",
+              "justifyContent": "space-between"
             },
-            "className": "view_97"
+            "className": "view_59"
           },
           "rect": {
             "x": 0,
@@ -5970,787 +4873,44 @@
           "isClick": false,
           "children": [
             {
-              "id": "91690945-3325-4F33-88CE-81BC6F4ECA10",
-              "name": "编组备份 7",
+              "id": "C3A70718-35EE-4F88-9DD8-ADFE52A67832",
+              "name": "已勾选 0 人",
               "props": {
                 "style": {
-                  "display": "flex",
                   "opacity": 1,
-                  "width": "34px",
-                  "height": "18px",
-                  "marginLeft": "139px",
-                  "marginTop": "3px",
-                  "flexDirection": "column"
+                  "height": "20px",
+                  "color": "rgba(51,51,51,1)",
+                  "fontSize": "14px",
+                  "fontFamily": "PingFangSC-Regular",
+                  "textAlign": "left",
+                  "lineHeight": "20px",
+                  "whiteSpace": "nowrap",
+                  "marginLeft": "16px"
                 },
-                "className": "view_98"
+                "className": "text_57",
+                "text": "已勾选 0 人",
+                "lines": 1
               },
               "rect": {
-                "x": 139,
-                "y": 751,
-                "width": 34,
-                "height": 18
+                "x": 16,
+                "y": 770,
+                "width": 74,
+                "height": 20
               },
-              "componentName": "Div",
+              "componentName": "Text",
               "intelligent": {
                 "layout_opt": {},
-                "is_need_detection": true
+                "is_need_detection": false
               },
               "isInteractive": false,
               "lowcodeType": "KunBasicContainer",
               "ui_library_type": "",
               "ui_component_type": "",
               "parentId": "4030C44E-49B2-419E-88D4-727E565898EE",
-              "isLeaf": false,
+              "isLeaf": true,
               "isHover": false,
               "isClick": false,
-              "children": [
-                {
-                  "id": "D5ADC54D-4507-4A5F-8A3D-2D82B0C6587E",
-                  "name": "矩形备份 2",
-                  "props": {
-                    "style": {
-                      "display": "flex",
-                      "opacity": 1,
-                      "width": "34px",
-                      "height": "18px",
-                      "backgroundColor": "rgba(248,248,248,1)",
-                      "borderRadius": "4px",
-                      "flexDirection": "column",
-                      "alignItems": "center",
-                      "justifyContent": "center"
-                    },
-                    "className": "view_99"
-                  },
-                  "rect": {
-                    "x": 0,
-                    "y": 0,
-                    "width": 34,
-                    "height": 18
-                  },
-                  "componentName": "Div",
-                  "intelligent": {
-                    "layout_opt": {},
-                    "is_need_detection": true
-                  },
-                  "isInteractive": false,
-                  "lowcodeType": "KunBasicContainer",
-                  "ui_library_type": "",
-                  "ui_component_type": "",
-                  "parentId": "91690945-3325-4F33-88CE-81BC6F4ECA10",
-                  "isLeaf": false,
-                  "isHover": false,
-                  "isClick": false,
-                  "children": [
-                    {
-                      "id": "B463C380-151E-497D-816D-A21C7A08B07F",
-                      "name": "资深备份",
-                      "props": {
-                        "style": {
-                          "display": "flex",
-                          "opacity": 1,
-                          "width": "23px",
-                          "height": "11px",
-                          "flexDirection": "column",
-                          "alignItems": "center",
-                          "justifyContent": "center"
-                        },
-                        "className": "view_100"
-                      },
-                      "rect": {
-                        "x": 5,
-                        "y": 4,
-                        "width": 23,
-                        "height": 11
-                      },
-                      "componentName": "Div",
-                      "intelligent": {
-                        "layout_opt": {},
-                        "is_need_detection": true
-                      },
-                      "isInteractive": false,
-                      "lowcodeType": "KunBasicContainer",
-                      "ui_library_type": "",
-                      "ui_component_type": "",
-                      "parentId": "D5ADC54D-4507-4A5F-8A3D-2D82B0C6587E",
-                      "isLeaf": false,
-                      "isHover": false,
-                      "isClick": false,
-                      "children": [
-                        {
-                          "id": "row_1lvv78bzu",
-                          "name": "Row",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "opacity": 1,
-                              "flexDirection": "row",
-                              "alignItems": "center",
-                              "justifyContent": "space-between",
-                              "width": "23px",
-                              "height": "11px"
-                            },
-                            "className": "view_101"
-                          },
-                          "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 23,
-                            "height": 11
-                          },
-                          "componentName": "Div",
-                          "intelligent": {
-                            "layout_opt": {},
-                            "is_need_detection": false
-                          },
-                          "isInteractive": false,
-                          "lowcodeType": "KunBasicContainer",
-                          "ui_library_type": "",
-                          "ui_component_type": "",
-                          "parentId": "B463C380-151E-497D-816D-A21C7A08B07F",
-                          "isLeaf": false,
-                          "isHover": false,
-                          "isClick": false,
-                          "children": [
-                            {
-                              "id": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                              "name": "形状",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "11px",
-                                  "height": "11px",
-                                  "backgroundColor": "rgba(231,156,0,1)",
-                                  "flexDirection": "row",
-                                  "alignItems": "center",
-                                  "justifyContent": "space-between"
-                                },
-                                "className": "view_102"
-                              },
-                              "rect": {
-                                "x": 0,
-                                "y": 0,
-                                "width": 11,
-                                "height": 11
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": true
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_1lvv78bzu",
-                              "isLeaf": false,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": [
-                                {
-                                  "id": "row_nxhmk2qrm",
-                                  "name": "Row",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "flexDirection": "row",
-                                      "alignItems": "center",
-                                      "justifyContent": "space-between",
-                                      "width": "11px",
-                                      "height": "5px"
-                                    },
-                                    "className": "view_103"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "width": 11,
-                                    "height": 5
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                  "isLeaf": false,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": [
-                                    {
-                                      "id": "row_uk7rezs6k",
-                                      "name": "LeftGroup",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "flexDirection": "row",
-                                          "alignItems": "center",
-                                          "width": "3px",
-                                          "height": "5px"
-                                        },
-                                        "className": "view_104"
-                                      },
-                                      "rect": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 3,
-                                        "height": 5
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_nxhmk2qrm",
-                                      "isLeaf": false,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": [
-                                        {
-                                          "id": "703813D2-62B7-4215-9F8D-92DE209FB2CC",
-                                          "name": "路径",
-                                          "props": {
-                                            "style": {
-                                              "display": "flex",
-                                              "opacity": 1,
-                                              "width": "3px",
-                                              "height": "2px",
-                                              "flexDirection": "column"
-                                            },
-                                            "className": "view_105"
-                                          },
-                                          "rect": {
-                                            "x": 0,
-                                            "y": 0,
-                                            "width": 3,
-                                            "height": 2
-                                          },
-                                          "componentName": "Div",
-                                          "intelligent": {
-                                            "layout_opt": {},
-                                            "is_need_detection": false
-                                          },
-                                          "isInteractive": false,
-                                          "lowcodeType": "KunBasicContainer",
-                                          "ui_library_type": "",
-                                          "ui_component_type": "",
-                                          "parentId": "row_uk7rezs6k",
-                                          "isLeaf": true,
-                                          "isHover": false,
-                                          "isClick": false,
-                                          "children": []
-                                        },
-                                        {
-                                          "id": "1036B166-217A-4A5F-8090-6C8AC6176694",
-                                          "name": "路径",
-                                          "props": {
-                                            "style": {
-                                              "display": "flex",
-                                              "opacity": 1,
-                                              "width": "3px",
-                                              "height": "3px",
-                                              "flexDirection": "column"
-                                            },
-                                            "className": "view_106"
-                                          },
-                                          "rect": {
-                                            "x": 0,
-                                            "y": 2,
-                                            "width": 3,
-                                            "height": 3
-                                          },
-                                          "componentName": "Div",
-                                          "intelligent": {
-                                            "layout_opt": {},
-                                            "is_need_detection": false
-                                          },
-                                          "isInteractive": false,
-                                          "lowcodeType": "KunBasicContainer",
-                                          "ui_library_type": "",
-                                          "ui_component_type": "",
-                                          "parentId": "row_uk7rezs6k",
-                                          "isLeaf": true,
-                                          "isHover": false,
-                                          "isClick": false,
-                                          "children": []
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "id": "D4D9C201-33C7-40D7-9BAC-0E5B2E83D981",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "8px",
-                                          "height": "3px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_107"
-                                      },
-                                      "rect": {
-                                        "x": 3,
-                                        "y": 0,
-                                        "width": 8,
-                                        "height": 3
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_nxhmk2qrm",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "132F4C1A-38F0-4645-982A-37538B1CF06F",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "8px",
-                                          "height": "3px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_108"
-                                      },
-                                      "rect": {
-                                        "x": 3,
-                                        "y": 2,
-                                        "width": 8,
-                                        "height": 3
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_nxhmk2qrm",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "id": "row_27zi7rgv9",
-                                  "name": "Row",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "flexDirection": "row",
-                                      "alignItems": "center",
-                                      "width": "11px",
-                                      "height": "6px"
-                                    },
-                                    "className": "view_109"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 5,
-                                    "width": 11,
-                                    "height": 6
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "C7F99242-CBB9-4A71-84F8-7D48D1FFA36D",
-                                  "isLeaf": false,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": [
-                                    {
-                                      "id": "E6EBE273-E2C8-4E95-9BE7-280A8EDD4912",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "11px",
-                                          "height": "4px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_110"
-                                      },
-                                      "rect": {
-                                        "x": 0,
-                                        "y": 7,
-                                        "width": 11,
-                                        "height": 4
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_27zi7rgv9",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "EECAEC5D-B946-45FD-A6D9-769CED28D708",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "9px",
-                                          "height": "3px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_111"
-                                      },
-                                      "rect": {
-                                        "x": 1,
-                                        "y": 5,
-                                        "width": 9,
-                                        "height": 3
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_27zi7rgv9",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "id": "0607361D-B58E-4435-902F-EC64A0541815",
-                              "name": "形状",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "opacity": 1,
-                                  "width": "11px",
-                                  "height": "11px",
-                                  "backgroundColor": "rgba(231,156,0,1)",
-                                  "flexDirection": "row",
-                                  "alignItems": "center",
-                                  "justifyContent": "space-between"
-                                },
-                                "className": "view_112"
-                              },
-                              "rect": {
-                                "x": 12,
-                                "y": 0,
-                                "width": 11,
-                                "height": 11
-                              },
-                              "componentName": "Div",
-                              "intelligent": {
-                                "layout_opt": {},
-                                "is_need_detection": true
-                              },
-                              "isInteractive": false,
-                              "lowcodeType": "KunBasicContainer",
-                              "ui_library_type": "",
-                              "ui_component_type": "",
-                              "parentId": "row_1lvv78bzu",
-                              "isLeaf": false,
-                              "isHover": false,
-                              "isClick": false,
-                              "children": [
-                                {
-                                  "id": "row_wlo8n5sd5",
-                                  "name": "Row",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "flexDirection": "row",
-                                      "alignItems": "center",
-                                      "width": "11px",
-                                      "height": "11px"
-                                    },
-                                    "className": "view_113"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 0,
-                                    "width": 11,
-                                    "height": 11
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                  "isLeaf": false,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": [
-                                    {
-                                      "id": "3AF12910-BC27-4037-AA66-4F7025A28DC1",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "2px",
-                                          "height": "2px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_114"
-                                      },
-                                      "rect": {
-                                        "x": 0,
-                                        "y": 0,
-                                        "width": 2,
-                                        "height": 2
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_wlo8n5sd5",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "52CAF177-A498-4FF6-BC0E-40A1C9751500",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "2px",
-                                          "height": "2px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_115"
-                                      },
-                                      "rect": {
-                                        "x": 0,
-                                        "y": 3,
-                                        "width": 2,
-                                        "height": 2
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_wlo8n5sd5",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "5F47E12A-C028-44F7-BB87-129456C7800A",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "8px",
-                                          "height": "4px",
-                                          "marginLeft": "1px",
-                                          "flexDirection": "column",
-                                          "alignItems": "center",
-                                          "justifyContent": "center"
-                                        },
-                                        "className": "view_116"
-                                      },
-                                      "rect": {
-                                        "x": 3,
-                                        "y": 0,
-                                        "width": 8,
-                                        "height": 4
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": true
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_wlo8n5sd5",
-                                      "isLeaf": false,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": [
-                                        {
-                                          "id": "784CD036-1553-410A-AF37-34F4F61A59C5",
-                                          "name": "路径",
-                                          "props": {
-                                            "style": {
-                                              "display": "flex",
-                                              "opacity": 1,
-                                              "width": "4px",
-                                              "height": "2px",
-                                              "flexDirection": "column"
-                                            },
-                                            "className": "view_117"
-                                          },
-                                          "rect": {
-                                            "x": 3,
-                                            "y": 2,
-                                            "width": 4,
-                                            "height": 2
-                                          },
-                                          "componentName": "Div",
-                                          "intelligent": {
-                                            "layout_opt": {},
-                                            "is_need_detection": false
-                                          },
-                                          "isInteractive": false,
-                                          "lowcodeType": "KunBasicContainer",
-                                          "ui_library_type": "",
-                                          "ui_component_type": "",
-                                          "parentId": "5F47E12A-C028-44F7-BB87-129456C7800A",
-                                          "isLeaf": true,
-                                          "isHover": false,
-                                          "isClick": false,
-                                          "children": []
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "id": "C340F466-3866-4243-BB50-F83AD8033C04",
-                                      "name": "路径",
-                                      "props": {
-                                        "style": {
-                                          "display": "flex",
-                                          "opacity": 1,
-                                          "width": "8px",
-                                          "height": "7px",
-                                          "flexDirection": "column"
-                                        },
-                                        "className": "view_118"
-                                      },
-                                      "rect": {
-                                        "x": 3,
-                                        "y": 4,
-                                        "width": 8,
-                                        "height": 7
-                                      },
-                                      "componentName": "Div",
-                                      "intelligent": {
-                                        "layout_opt": {},
-                                        "is_need_detection": false
-                                      },
-                                      "isInteractive": false,
-                                      "lowcodeType": "KunBasicContainer",
-                                      "ui_library_type": "",
-                                      "ui_component_type": "",
-                                      "parentId": "row_wlo8n5sd5",
-                                      "isLeaf": true,
-                                      "isHover": false,
-                                      "isClick": false,
-                                      "children": []
-                                    }
-                                  ]
-                                },
-                                {
-                                  "id": "ADB03500-A60F-4EBA-9C20-234AEFAF2979",
-                                  "name": "路径",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "opacity": 1,
-                                      "width": "3px",
-                                      "height": "5px",
-                                      "flexDirection": "column"
-                                    },
-                                    "className": "view_119"
-                                  },
-                                  "rect": {
-                                    "x": 0,
-                                    "y": 6,
-                                    "width": 3,
-                                    "height": 5
-                                  },
-                                  "componentName": "Div",
-                                  "intelligent": {
-                                    "layout_opt": {},
-                                    "is_need_detection": false
-                                  },
-                                  "isInteractive": false,
-                                  "lowcodeType": "KunBasicContainer",
-                                  "ui_library_type": "",
-                                  "ui_component_type": "",
-                                  "parentId": "0607361D-B58E-4435-902F-EC64A0541815",
-                                  "isLeaf": true,
-                                  "isHover": false,
-                                  "isClick": false,
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
+              "children": []
             },
             {
               "id": "118AF70F-6CCA-4628-A7C5-8BCE21567242",
@@ -6761,14 +4921,14 @@
                   "opacity": 0.5,
                   "width": "120px",
                   "height": "40px",
-                  "marginLeft": "243px",
                   "backgroundColor": "rgba(255,113,42,1)",
                   "borderRadius": "22px",
                   "flexDirection": "column",
                   "alignItems": "center",
-                  "justifyContent": "center"
+                  "justifyContent": "center",
+                  "marginRight": "12px"
                 },
-                "className": "view_120"
+                "className": "view_60"
               },
               "rect": {
                 "x": 243,
@@ -6805,7 +4965,7 @@
                       "lineHeight": "22px",
                       "whiteSpace": "nowrap"
                     },
-                    "className": "text_57",
+                    "className": "text_58",
                     "text": "录入目标",
                     "lines": 1
                   },
@@ -6831,47 +4991,6 @@
                   "children": []
                 }
               ]
-            },
-            {
-              "id": "C3A70718-35EE-4F88-9DD8-ADFE52A67832",
-              "name": "已勾选 0 人",
-              "props": {
-                "style": {
-                  "opacity": 1,
-                  "width": "74px",
-                  "height": "20px",
-                  "marginLeft": "16px",
-                  "color": "rgba(51,51,51,1)",
-                  "fontSize": "14px",
-                  "fontFamily": "PingFangSC-Regular",
-                  "textAlign": "left",
-                  "lineHeight": "20px",
-                  "whiteSpace": "nowrap"
-                },
-                "className": "text_58",
-                "text": "已勾选 0 人",
-                "lines": 1
-              },
-              "rect": {
-                "x": 16,
-                "y": 770,
-                "width": 74,
-                "height": 20
-              },
-              "componentName": "Text",
-              "intelligent": {
-                "layout_opt": {},
-                "is_need_detection": false
-              },
-              "isInteractive": false,
-              "lowcodeType": "KunBasicContainer",
-              "ui_library_type": "",
-              "ui_component_type": "",
-              "parentId": "4030C44E-49B2-419E-88D4-727E565898EE",
-              "isLeaf": true,
-              "isHover": false,
-              "isClick": false,
-              "children": []
             }
           ]
         }
